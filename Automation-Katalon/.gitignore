@@ -1,0 +1,33 @@
+.gradle/
+bin/
+Libs/
+.settings/
+.classpath
+.project
+.cache/
+.svn/
+build/
+output/
+
+# Katalon runtime files
+console.properties
+*.temp
+.temp-*
+Screenshots/
+
+# Office lock files
+~$*
+
+# Generator scripts (internal use)
+generate_testcase_excel.ps1
+generate_testcase_excel.py
+
+# Old Reports - keep only latest DDT report
+Reports/20260219_*/
+Reports/20260220_0*/
+Reports/20260220_1[^2]*/
+Reports/20260220_12[^4]*/
+Reports/20260220_124[^3]*/
+Reports/20260220_1248*/
+Reports/20260220_134*/
+Reports/Self-healing/

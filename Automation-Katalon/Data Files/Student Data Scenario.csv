@@ -1,0 +1,10 @@
+Scenario,ExpectedResult,FirstName,LastName,StudentEmail,MobileNumber,DateOfBirth,CurrentAddress,State,City
+TC001_ValidSubmit,PASS,Andi,Pratama,andi.pratama@mail.com,8123456788,2000-10-14,Jl. Merdeka No 10 Jakarta,Uttar Pradesh,Agra
+TC002_NoLastName,FAIL,Andi,,andi.pratama@mail.com,8123456788,2000-10-14,Jl. Merdeka No 10 Jakarta,Uttar Pradesh,Agra
+TC003_NoFirstName,FAIL,,Pratama,andi.pratama@mail.com,8123456788,2000-10-14,Jl. Merdeka No 10 Jakarta,Uttar Pradesh,Agra
+TC004_InvalidEmail,FAIL,Andi,Pratama,emailtanpaatsign@,8123456788,2000-10-14,Jl. Merdeka No 10 Jakarta,Uttar Pradesh,Agra
+TC005_NoGender,FAIL,Andi,Pratama,andi.pratama@mail.com,8123456788,2000-10-14,Jl. Merdeka No 10 Jakarta,Uttar Pradesh,Agra
+TC006_NoMobile,FAIL,Andi,Pratama,andi.pratama@mail.com,,2000-10-14,Jl. Merdeka No 10 Jakarta,Uttar Pradesh,Agra
+TC007_MaxlengthMobile,PASS,Andi,Pratama,andi.pratama@mail.com,8123456788,2000-10-14,Jl. Merdeka No 10 Jakarta,Uttar Pradesh,Agra
+TC008_InvalidMobileAlpha,FAIL,Andi,Pratama,andi.pratama@mail.com,ABCDEF1234,2000-10-14,Jl. Merdeka No 10 Jakarta,Uttar Pradesh,Agra
+TC009_EmptyAllFields,FAIL,,,,,,,,

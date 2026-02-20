@@ -1,0 +1,11 @@
+{
+  "id": "petstore-env-case02",
+  "name": "Petstore Environment - CASE02",
+  "values": [
+    { "key": "baseUrl", "value": "https://petstore.swagger.io/v2", "enabled": true },
+    { "key": "petId",   "value": "", "enabled": true },
+    { "key": "orderId", "value": "", "enabled": true },
+    { "key": "username","value": "", "enabled": true }
+  ],
+  "_postman_variable_scope": "environment"
+}

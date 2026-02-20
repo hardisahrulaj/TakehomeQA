@@ -1,0 +1,482 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+StudentFormDDTSuite,Chrome 144.0.0.0,DDT Test Suite - 1 TC runs all 9 rows from Student Data Scenario.csv,,20-02-2026 12:43:51,20-02-2026 12:46:45,"2m - 53,570s",PASSED
+,,,,,,,
+Test Cases/TC_StudentForm_DDT,Chrome 144.0.0.0,DDT Student Form - runs all rows from Student Data Scenario.csv,,20-02-2026 12:43:52,20-02-2026 12:44:20,"28,303s",PASSED
+"openBrowser("""")",Chrome 144.0.0.0,,,20-02-2026 12:43:53,20-02-2026 12:43:57,"3,526s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 144.0.0.0,,,20-02-2026 12:43:57,20-02-2026 12:43:59,"2,167s",PASSED
+maximizeWindow(),Chrome 144.0.0.0,,,20-02-2026 12:43:59,20-02-2026 12:43:59,"0,112s",PASSED
+waitForPageLoad(10),Chrome 144.0.0.0,,,20-02-2026 12:43:59,20-02-2026 12:44:00,"1,116s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""), 5)",Chrome 144.0.0.0,,,20-02-2026 12:44:00,20-02-2026 12:44:01,"0,640s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""))))",Chrome 144.0.0.0,,,20-02-2026 12:44:01,20-02-2026 12:44:01,"0,320s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_forms""))))",Chrome 144.0.0.0,,,20-02-2026 12:44:01,20-02-2026 12:44:01,"0,325s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:01,20-02-2026 12:44:03,"1,092s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm""))))",Chrome 144.0.0.0,,,20-02-2026 12:44:03,20-02-2026 12:44:03,"0,145s",PASSED
+waitForPageLoad(5),Chrome 144.0.0.0,,,20-02-2026 12:44:03,20-02-2026 12:44:03,"0,099s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label""), 1)",Chrome 144.0.0.0,,,20-02-2026 12:44:03,20-02-2026 12:44:03,"0,138s",PASSED
+if (FirstName),Chrome 144.0.0.0,,,20-02-2026 12:44:03,20-02-2026 12:44:03,"0,478s",PASSED
+if (LastName),Chrome 144.0.0.0,,,20-02-2026 12:44:03,20-02-2026 12:44:04,"0,416s",PASSED
+if (StudentEmail),Chrome 144.0.0.0,,,20-02-2026 12:44:04,20-02-2026 12:44:04,"0,355s",PASSED
+"if (!(Scenario.startsWith(""TC005"")))",Chrome 144.0.0.0,,,20-02-2026 12:44:04,20-02-2026 12:44:04,"0,064s",PASSED
+if (MobileNumber),Chrome 144.0.0.0,,,20-02-2026 12:44:04,20-02-2026 12:44:05,"0,339s",PASSED
+"if (Scenario.startsWith(""TC009""))",Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:05,"0,003s",PASSED
+"dobParts = DateOfBirth.split(""-"")",Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:05,"0,010s",PASSED
+dobYear = dobParts[0],Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:05,"0,018s",PASSED
+dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1),Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:05,"0,014s",PASSED
+dobDay = String.valueOf(Integer.parseInt(dobParts[2])),Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:05,"0,002s",PASSED
+"executeJavaScript(""document.getElementById('dateOfBirthInput').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:05,"0,139s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__year-select').value='"" + dobYear + ""'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:05,"0,093s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__month-select').value='"" + dobMonth + ""'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:05,"0,067s",PASSED
+"executeJavaScript(""var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='"" + dobDay + ""'){d.click();break;}}"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:05,"0,056s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:05,20-02-2026 12:44:06,"1,021s",PASSED
+"setText(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput""), ""A"")",Chrome 144.0.0.0,,,20-02-2026 12:44:06,20-02-2026 12:44:06,"0,375s",PASSED
+"executeJavaScript(""document.querySelector('[id^=react-select-2-option]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:06,20-02-2026 12:44:06,"0,050s",PASSED
+"executeJavaScript(""document.querySelector('label[for=hobbies-checkbox-3]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:06,20-02-2026 12:44:06,"0,036s",PASSED
+"uploadFile(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture""), getProjectDir() + ""/Data Files/student_photo.jpg"")",Chrome 144.0.0.0,,,20-02-2026 12:44:06,20-02-2026 12:44:07,"0,158s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:44:07,20-02-2026 12:44:07,"0,087s",PASSED
+if (CurrentAddress),Chrome 144.0.0.0,,,20-02-2026 12:44:07,20-02-2026 12:44:07,"0,308s",PASSED
+"executeJavaScript(""window.scrollBy(0, 300)"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:07,20-02-2026 12:44:07,"0,025s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:07,20-02-2026 12:44:08,"1,019s",PASSED
+"executeJavaScript(""var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:08,20-02-2026 12:44:08,"0,024s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:08,20-02-2026 12:44:09,"1,007s",PASSED
+"if (Scenario.startsWith(""TC007""))",Chrome 144.0.0.0,,,20-02-2026 12:44:09,20-02-2026 12:44:09,"0,004s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:44:09,20-02-2026 12:44:09,"0,092s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""))",Chrome 144.0.0.0,,,20-02-2026 12:44:09,20-02-2026 12:44:09,"0,261s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:09,20-02-2026 12:44:10,"1,019s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:44:10,20-02-2026 12:44:11,"0,061s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(State))",Chrome 144.0.0.0,,,20-02-2026 12:44:11,20-02-2026 12:44:11,"0,051s",PASSED
+delay(2),Chrome 144.0.0.0,,,20-02-2026 12:44:11,20-02-2026 12:44:13,"2,027s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:44:13,20-02-2026 12:44:13,"0,082s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""))",Chrome 144.0.0.0,,,20-02-2026 12:44:13,20-02-2026 12:44:13,"0,194s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:13,20-02-2026 12:44:14,"1,015s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:44:14,20-02-2026 12:44:14,"0,062s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(City))",Chrome 144.0.0.0,,,20-02-2026 12:44:14,20-02-2026 12:44:14,"0,033s",PASSED
+"executeJavaScript(""document.getElementById('submit').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:14,20-02-2026 12:44:14,"0,080s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:14,20-02-2026 12:44:15,"1,017s",PASSED
+"popup = executeJavaScript(""return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:15,20-02-2026 12:44:15,"0,027s",PASSED
+"formSubmitted = popup.equals(""Thanks for submitting the form"")",Chrome 144.0.0.0,,,20-02-2026 12:44:15,20-02-2026 12:44:15,"0,004s",PASSED
+"shouldPass = ExpectedResult.equals(""PASS"")",Chrome 144.0.0.0,,,20-02-2026 12:44:15,20-02-2026 12:44:15,"0,007s",PASSED
+"if (Scenario.startsWith(""TC008""))",Chrome 144.0.0.0,,,20-02-2026 12:44:15,20-02-2026 12:44:15,"0,006s",PASSED
+takeScreenshot(),Chrome 144.0.0.0,,,20-02-2026 12:44:15,20-02-2026 12:44:16,"0,335s",PASSED
+if (formSubmitted == shouldPass),Chrome 144.0.0.0,,,20-02-2026 12:44:16,20-02-2026 12:44:16,"0,057s",PASSED
+if (formSubmitted),Chrome 144.0.0.0,,,20-02-2026 12:44:16,20-02-2026 12:44:17,"1,200s",PASSED
+delay(3),Chrome 144.0.0.0,,,20-02-2026 12:44:17,20-02-2026 12:44:20,"3,009s",PASSED
+closeBrowser(),Chrome 144.0.0.0,,,20-02-2026 12:44:20,20-02-2026 12:44:20,"0,588s",PASSED
+,,,,,,,
+Test Cases/TC_StudentForm_DDT,Chrome 144.0.0.0,DDT Student Form - runs all rows from Student Data Scenario.csv,,20-02-2026 12:44:20,20-02-2026 12:44:42,"21,138s",PASSED
+"openBrowser("""")",Chrome 144.0.0.0,,,20-02-2026 12:44:21,20-02-2026 12:44:22,"1,256s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 144.0.0.0,,,20-02-2026 12:44:22,20-02-2026 12:44:24,"2,061s",PASSED
+maximizeWindow(),Chrome 144.0.0.0,,,20-02-2026 12:44:24,20-02-2026 12:44:24,"0,072s",PASSED
+waitForPageLoad(10),Chrome 144.0.0.0,,,20-02-2026 12:44:24,20-02-2026 12:44:24,"0,021s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""), 5)",Chrome 144.0.0.0,,,20-02-2026 12:44:24,20-02-2026 12:44:24,"0,173s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""))))",Chrome 144.0.0.0,,,20-02-2026 12:44:24,20-02-2026 12:44:25,"0,695s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_forms""))))",Chrome 144.0.0.0,,,20-02-2026 12:44:25,20-02-2026 12:44:25,"0,176s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:25,20-02-2026 12:44:26,"1,020s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm""))))",Chrome 144.0.0.0,,,20-02-2026 12:44:26,20-02-2026 12:44:26,"0,116s",PASSED
+waitForPageLoad(5),Chrome 144.0.0.0,,,20-02-2026 12:44:26,20-02-2026 12:44:26,"0,026s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label""), 1)",Chrome 144.0.0.0,,,20-02-2026 12:44:26,20-02-2026 12:44:26,"0,213s",PASSED
+if (FirstName),Chrome 144.0.0.0,,,20-02-2026 12:44:26,20-02-2026 12:44:27,"0,534s",PASSED
+if (LastName),Chrome 144.0.0.0,,,20-02-2026 12:44:27,20-02-2026 12:44:27,"0,001s",PASSED
+if (StudentEmail),Chrome 144.0.0.0,,,20-02-2026 12:44:27,20-02-2026 12:44:27,"0,368s",PASSED
+"if (!(Scenario.startsWith(""TC005"")))",Chrome 144.0.0.0,,,20-02-2026 12:44:27,20-02-2026 12:44:27,"0,026s",PASSED
+if (MobileNumber),Chrome 144.0.0.0,,,20-02-2026 12:44:27,20-02-2026 12:44:28,"0,318s",PASSED
+"if (Scenario.startsWith(""TC009""))",Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:28,"0,001s",PASSED
+"dobParts = DateOfBirth.split(""-"")",Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:28,"0,001s",PASSED
+dobYear = dobParts[0],Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:28,"0,001s",PASSED
+dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1),Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:28,"0,001s",PASSED
+dobDay = String.valueOf(Integer.parseInt(dobParts[2])),Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:28,"0,001s",PASSED
+"executeJavaScript(""document.getElementById('dateOfBirthInput').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:28,"0,074s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__year-select').value='"" + dobYear + ""'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:28,"0,064s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__month-select').value='"" + dobMonth + ""'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:28,"0,050s",PASSED
+"executeJavaScript(""var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='"" + dobDay + ""'){d.click();break;}}"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:28,"0,036s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:28,20-02-2026 12:44:29,"1,021s",PASSED
+"setText(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput""), ""A"")",Chrome 144.0.0.0,,,20-02-2026 12:44:29,20-02-2026 12:44:29,"0,297s",PASSED
+"executeJavaScript(""document.querySelector('[id^=react-select-2-option]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:29,20-02-2026 12:44:29,"0,033s",PASSED
+"executeJavaScript(""document.querySelector('label[for=hobbies-checkbox-3]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:29,20-02-2026 12:44:29,"0,031s",PASSED
+"uploadFile(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture""), getProjectDir() + ""/Data Files/student_photo.jpg"")",Chrome 144.0.0.0,,,20-02-2026 12:44:29,20-02-2026 12:44:29,"0,085s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:44:29,20-02-2026 12:44:29,"0,056s",PASSED
+if (CurrentAddress),Chrome 144.0.0.0,,,20-02-2026 12:44:29,20-02-2026 12:44:30,"0,407s",PASSED
+"executeJavaScript(""window.scrollBy(0, 300)"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:30,20-02-2026 12:44:30,"0,022s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:30,20-02-2026 12:44:31,"1,005s",PASSED
+"executeJavaScript(""var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:31,20-02-2026 12:44:31,"0,040s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:31,20-02-2026 12:44:32,"1,020s",PASSED
+"if (Scenario.startsWith(""TC007""))",Chrome 144.0.0.0,,,20-02-2026 12:44:32,20-02-2026 12:44:32,"0,001s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:44:32,20-02-2026 12:44:32,"0,064s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""))",Chrome 144.0.0.0,,,20-02-2026 12:44:32,20-02-2026 12:44:32,"0,144s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:32,20-02-2026 12:44:33,"1,015s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:44:33,20-02-2026 12:44:33,"0,065s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(State))",Chrome 144.0.0.0,,,20-02-2026 12:44:33,20-02-2026 12:44:33,"0,023s",PASSED
+delay(2),Chrome 144.0.0.0,,,20-02-2026 12:44:33,20-02-2026 12:44:35,"2,014s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:44:35,20-02-2026 12:44:35,"0,083s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""))",Chrome 144.0.0.0,,,20-02-2026 12:44:35,20-02-2026 12:44:35,"0,145s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:35,20-02-2026 12:44:37,"1,020s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:44:37,20-02-2026 12:44:37,"0,046s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(City))",Chrome 144.0.0.0,,,20-02-2026 12:44:37,20-02-2026 12:44:37,"0,033s",PASSED
+"executeJavaScript(""document.getElementById('submit').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:37,20-02-2026 12:44:37,"0,098s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:37,20-02-2026 12:44:38,"1,005s",PASSED
+"popup = executeJavaScript(""return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:38,20-02-2026 12:44:38,"0,019s",PASSED
+"formSubmitted = popup.equals(""Thanks for submitting the form"")",Chrome 144.0.0.0,,,20-02-2026 12:44:38,20-02-2026 12:44:38,"0,000s",PASSED
+"shouldPass = ExpectedResult.equals(""PASS"")",Chrome 144.0.0.0,,,20-02-2026 12:44:38,20-02-2026 12:44:38,"0,000s",PASSED
+"if (Scenario.startsWith(""TC008""))",Chrome 144.0.0.0,,,20-02-2026 12:44:38,20-02-2026 12:44:38,"0,000s",PASSED
+takeScreenshot(),Chrome 144.0.0.0,,,20-02-2026 12:44:38,20-02-2026 12:44:38,"0,195s",PASSED
+if (formSubmitted == shouldPass),Chrome 144.0.0.0,,,20-02-2026 12:44:38,20-02-2026 12:44:38,"0,005s",PASSED
+if (formSubmitted),Chrome 144.0.0.0,,,20-02-2026 12:44:38,20-02-2026 12:44:38,"0,000s",PASSED
+delay(3),Chrome 144.0.0.0,,,20-02-2026 12:44:38,20-02-2026 12:44:41,"3,015s",PASSED
+closeBrowser(),Chrome 144.0.0.0,,,20-02-2026 12:44:41,20-02-2026 12:44:42,"0,613s",PASSED
+,,,,,,,
+Test Cases/TC_StudentForm_DDT,Chrome 144.0.0.0,DDT Student Form - runs all rows from Student Data Scenario.csv,,20-02-2026 12:44:42,20-02-2026 12:45:02,"20,405s",PASSED
+"openBrowser("""")",Chrome 144.0.0.0,,,20-02-2026 12:44:42,20-02-2026 12:44:43,"1,222s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 144.0.0.0,,,20-02-2026 12:44:43,20-02-2026 12:44:45,"2,002s",PASSED
+maximizeWindow(),Chrome 144.0.0.0,,,20-02-2026 12:44:45,20-02-2026 12:44:45,"0,083s",PASSED
+waitForPageLoad(10),Chrome 144.0.0.0,,,20-02-2026 12:44:45,20-02-2026 12:44:45,"0,023s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""), 5)",Chrome 144.0.0.0,,,20-02-2026 12:44:45,20-02-2026 12:44:45,"0,231s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""))))",Chrome 144.0.0.0,,,20-02-2026 12:44:45,20-02-2026 12:44:46,"0,447s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_forms""))))",Chrome 144.0.0.0,,,20-02-2026 12:44:46,20-02-2026 12:44:46,"0,213s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:46,20-02-2026 12:44:47,"1,018s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm""))))",Chrome 144.0.0.0,,,20-02-2026 12:44:47,20-02-2026 12:44:47,"0,118s",PASSED
+waitForPageLoad(5),Chrome 144.0.0.0,,,20-02-2026 12:44:47,20-02-2026 12:44:47,"0,048s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label""), 1)",Chrome 144.0.0.0,,,20-02-2026 12:44:47,20-02-2026 12:44:47,"0,057s",PASSED
+if (FirstName),Chrome 144.0.0.0,,,20-02-2026 12:44:47,20-02-2026 12:44:47,"0,001s",PASSED
+if (LastName),Chrome 144.0.0.0,,,20-02-2026 12:44:47,20-02-2026 12:44:47,"0,311s",PASSED
+if (StudentEmail),Chrome 144.0.0.0,,,20-02-2026 12:44:47,20-02-2026 12:44:48,"0,352s",PASSED
+"if (!(Scenario.startsWith(""TC005"")))",Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,036s",PASSED
+if (MobileNumber),Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,322s",PASSED
+"if (Scenario.startsWith(""TC009""))",Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,001s",PASSED
+"dobParts = DateOfBirth.split(""-"")",Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,001s",PASSED
+dobYear = dobParts[0],Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,000s",PASSED
+dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1),Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,000s",PASSED
+dobDay = String.valueOf(Integer.parseInt(dobParts[2])),Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,000s",PASSED
+"executeJavaScript(""document.getElementById('dateOfBirthInput').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,093s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__year-select').value='"" + dobYear + ""'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,050s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__month-select').value='"" + dobMonth + ""'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,033s",PASSED
+"executeJavaScript(""var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='"" + dobDay + ""'){d.click();break;}}"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:48,"0,030s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:48,20-02-2026 12:44:49,"1,017s",PASSED
+"setText(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput""), ""A"")",Chrome 144.0.0.0,,,20-02-2026 12:44:49,20-02-2026 12:44:50,"0,382s",PASSED
+"executeJavaScript(""document.querySelector('[id^=react-select-2-option]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:50,20-02-2026 12:44:50,"0,044s",PASSED
+"executeJavaScript(""document.querySelector('label[for=hobbies-checkbox-3]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:50,20-02-2026 12:44:50,"0,034s",PASSED
+"uploadFile(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture""), getProjectDir() + ""/Data Files/student_photo.jpg"")",Chrome 144.0.0.0,,,20-02-2026 12:44:50,20-02-2026 12:44:50,"0,153s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:44:50,20-02-2026 12:44:50,"0,067s",PASSED
+if (CurrentAddress),Chrome 144.0.0.0,,,20-02-2026 12:44:50,20-02-2026 12:44:50,"0,347s",PASSED
+"executeJavaScript(""window.scrollBy(0, 300)"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:50,20-02-2026 12:44:50,"0,017s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:50,20-02-2026 12:44:51,"1,019s",PASSED
+"executeJavaScript(""var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:51,20-02-2026 12:44:51,"0,024s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:51,20-02-2026 12:44:52,"1,011s",PASSED
+"if (Scenario.startsWith(""TC007""))",Chrome 144.0.0.0,,,20-02-2026 12:44:52,20-02-2026 12:44:52,"0,003s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:44:52,20-02-2026 12:44:53,"0,095s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""))",Chrome 144.0.0.0,,,20-02-2026 12:44:53,20-02-2026 12:44:53,"0,146s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:53,20-02-2026 12:44:54,"1,015s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:44:54,20-02-2026 12:44:54,"0,040s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(State))",Chrome 144.0.0.0,,,20-02-2026 12:44:54,20-02-2026 12:44:54,"0,046s",PASSED
+delay(2),Chrome 144.0.0.0,,,20-02-2026 12:44:54,20-02-2026 12:44:56,"2,018s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:44:56,20-02-2026 12:44:56,"0,068s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""))",Chrome 144.0.0.0,,,20-02-2026 12:44:56,20-02-2026 12:44:56,"0,157s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:56,20-02-2026 12:44:57,"1,006s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:44:57,20-02-2026 12:44:57,"0,030s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(City))",Chrome 144.0.0.0,,,20-02-2026 12:44:57,20-02-2026 12:44:57,"0,028s",PASSED
+"executeJavaScript(""document.getElementById('submit').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:57,20-02-2026 12:44:57,"0,028s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:44:57,20-02-2026 12:44:58,"1,015s",PASSED
+"popup = executeJavaScript(""return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';"", null)",Chrome 144.0.0.0,,,20-02-2026 12:44:58,20-02-2026 12:44:58,"0,031s",PASSED
+"formSubmitted = popup.equals(""Thanks for submitting the form"")",Chrome 144.0.0.0,,,20-02-2026 12:44:58,20-02-2026 12:44:58,"0,002s",PASSED
+"shouldPass = ExpectedResult.equals(""PASS"")",Chrome 144.0.0.0,,,20-02-2026 12:44:58,20-02-2026 12:44:58,"0,001s",PASSED
+"if (Scenario.startsWith(""TC008""))",Chrome 144.0.0.0,,,20-02-2026 12:44:58,20-02-2026 12:44:58,"0,002s",PASSED
+takeScreenshot(),Chrome 144.0.0.0,,,20-02-2026 12:44:58,20-02-2026 12:44:58,"0,205s",PASSED
+if (formSubmitted == shouldPass),Chrome 144.0.0.0,,,20-02-2026 12:44:58,20-02-2026 12:44:58,"0,005s",PASSED
+if (formSubmitted),Chrome 144.0.0.0,,,20-02-2026 12:44:58,20-02-2026 12:44:58,"0,001s",PASSED
+delay(3),Chrome 144.0.0.0,,,20-02-2026 12:44:58,20-02-2026 12:45:01,"3,017s",PASSED
+closeBrowser(),Chrome 144.0.0.0,,,20-02-2026 12:45:01,20-02-2026 12:45:02,"0,541s",PASSED
+,,,,,,,
+Test Cases/TC_StudentForm_DDT,Chrome 144.0.0.0,DDT Student Form - runs all rows from Student Data Scenario.csv,,20-02-2026 12:45:02,20-02-2026 12:45:25,"22,656s",PASSED
+"openBrowser("""")",Chrome 144.0.0.0,,,20-02-2026 12:45:02,20-02-2026 12:45:03,"1,081s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 144.0.0.0,,,20-02-2026 12:45:03,20-02-2026 12:45:07,"3,867s",PASSED
+maximizeWindow(),Chrome 144.0.0.0,,,20-02-2026 12:45:07,20-02-2026 12:45:07,"0,074s",PASSED
+waitForPageLoad(10),Chrome 144.0.0.0,,,20-02-2026 12:45:07,20-02-2026 12:45:07,"0,058s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""), 5)",Chrome 144.0.0.0,,,20-02-2026 12:45:07,20-02-2026 12:45:08,"0,462s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""))))",Chrome 144.0.0.0,,,20-02-2026 12:45:08,20-02-2026 12:45:08,"0,331s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_forms""))))",Chrome 144.0.0.0,,,20-02-2026 12:45:08,20-02-2026 12:45:08,"0,077s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:08,20-02-2026 12:45:09,"1,009s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm""))))",Chrome 144.0.0.0,,,20-02-2026 12:45:09,20-02-2026 12:45:09,"0,201s",PASSED
+waitForPageLoad(5),Chrome 144.0.0.0,,,20-02-2026 12:45:09,20-02-2026 12:45:09,"0,047s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label""), 1)",Chrome 144.0.0.0,,,20-02-2026 12:45:09,20-02-2026 12:45:09,"0,052s",PASSED
+if (FirstName),Chrome 144.0.0.0,,,20-02-2026 12:45:09,20-02-2026 12:45:10,"0,429s",PASSED
+if (LastName),Chrome 144.0.0.0,,,20-02-2026 12:45:10,20-02-2026 12:45:10,"0,371s",PASSED
+if (StudentEmail),Chrome 144.0.0.0,,,20-02-2026 12:45:10,20-02-2026 12:45:11,"0,364s",PASSED
+"if (!(Scenario.startsWith(""TC005"")))",Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,042s",PASSED
+if (MobileNumber),Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,216s",PASSED
+"if (Scenario.startsWith(""TC009""))",Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,001s",PASSED
+"dobParts = DateOfBirth.split(""-"")",Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,001s",PASSED
+dobYear = dobParts[0],Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,002s",PASSED
+dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1),Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,002s",PASSED
+dobDay = String.valueOf(Integer.parseInt(dobParts[2])),Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,001s",PASSED
+"executeJavaScript(""document.getElementById('dateOfBirthInput').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,120s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__year-select').value='"" + dobYear + ""'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,037s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__month-select').value='"" + dobMonth + ""'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,049s",PASSED
+"executeJavaScript(""var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='"" + dobDay + ""'){d.click();break;}}"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:11,"0,032s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:11,20-02-2026 12:45:12,"1,010s",PASSED
+"setText(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput""), ""A"")",Chrome 144.0.0.0,,,20-02-2026 12:45:12,20-02-2026 12:45:12,"0,369s",PASSED
+"executeJavaScript(""document.querySelector('[id^=react-select-2-option]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:12,20-02-2026 12:45:12,"0,037s",PASSED
+"executeJavaScript(""document.querySelector('label[for=hobbies-checkbox-3]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:12,20-02-2026 12:45:12,"0,028s",PASSED
+"uploadFile(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture""), getProjectDir() + ""/Data Files/student_photo.jpg"")",Chrome 144.0.0.0,,,20-02-2026 12:45:12,20-02-2026 12:45:13,"0,121s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:45:13,20-02-2026 12:45:13,"0,073s",PASSED
+if (CurrentAddress),Chrome 144.0.0.0,,,20-02-2026 12:45:13,20-02-2026 12:45:13,"0,374s",PASSED
+"executeJavaScript(""window.scrollBy(0, 300)"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:13,20-02-2026 12:45:13,"0,022s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:13,20-02-2026 12:45:14,"1,014s",PASSED
+"executeJavaScript(""var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:14,20-02-2026 12:45:14,"0,078s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:14,20-02-2026 12:45:15,"1,014s",PASSED
+"if (Scenario.startsWith(""TC007""))",Chrome 144.0.0.0,,,20-02-2026 12:45:15,20-02-2026 12:45:15,"0,001s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:45:15,20-02-2026 12:45:15,"0,123s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""))",Chrome 144.0.0.0,,,20-02-2026 12:45:15,20-02-2026 12:45:15,"0,128s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:15,20-02-2026 12:45:16,"1,005s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:45:16,20-02-2026 12:45:16,"0,035s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(State))",Chrome 144.0.0.0,,,20-02-2026 12:45:16,20-02-2026 12:45:17,"0,040s",PASSED
+delay(2),Chrome 144.0.0.0,,,20-02-2026 12:45:17,20-02-2026 12:45:19,"2,014s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:45:19,20-02-2026 12:45:19,"0,070s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""))",Chrome 144.0.0.0,,,20-02-2026 12:45:19,20-02-2026 12:45:19,"0,139s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:19,20-02-2026 12:45:20,"1,014s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:45:20,20-02-2026 12:45:20,"0,106s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(City))",Chrome 144.0.0.0,,,20-02-2026 12:45:20,20-02-2026 12:45:20,"0,041s",PASSED
+"executeJavaScript(""document.getElementById('submit').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:20,20-02-2026 12:45:20,"0,062s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:20,20-02-2026 12:45:21,"1,007s",PASSED
+"popup = executeJavaScript(""return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:21,20-02-2026 12:45:21,"0,024s",PASSED
+"formSubmitted = popup.equals(""Thanks for submitting the form"")",Chrome 144.0.0.0,,,20-02-2026 12:45:21,20-02-2026 12:45:21,"0,001s",PASSED
+"shouldPass = ExpectedResult.equals(""PASS"")",Chrome 144.0.0.0,,,20-02-2026 12:45:21,20-02-2026 12:45:21,"0,001s",PASSED
+"if (Scenario.startsWith(""TC008""))",Chrome 144.0.0.0,,,20-02-2026 12:45:21,20-02-2026 12:45:21,"0,001s",PASSED
+takeScreenshot(),Chrome 144.0.0.0,,,20-02-2026 12:45:21,20-02-2026 12:45:21,"0,183s",PASSED
+if (formSubmitted == shouldPass),Chrome 144.0.0.0,,,20-02-2026 12:45:21,20-02-2026 12:45:21,"0,004s",PASSED
+if (formSubmitted),Chrome 144.0.0.0,,,20-02-2026 12:45:21,20-02-2026 12:45:21,"0,001s",PASSED
+delay(3),Chrome 144.0.0.0,,,20-02-2026 12:45:21,20-02-2026 12:45:24,"3,008s",PASSED
+closeBrowser(),Chrome 144.0.0.0,,,20-02-2026 12:45:24,20-02-2026 12:45:25,"0,510s",PASSED
+,,,,,,,
+Test Cases/TC_StudentForm_DDT,Chrome 144.0.0.0,DDT Student Form - runs all rows from Student Data Scenario.csv,,20-02-2026 12:45:25,20-02-2026 12:45:47,"22,009s",PASSED
+"openBrowser("""")",Chrome 144.0.0.0,,,20-02-2026 12:45:25,20-02-2026 12:45:26,"1,085s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 144.0.0.0,,,20-02-2026 12:45:26,20-02-2026 12:45:30,"3,819s",PASSED
+maximizeWindow(),Chrome 144.0.0.0,,,20-02-2026 12:45:30,20-02-2026 12:45:30,"0,082s",PASSED
+waitForPageLoad(10),Chrome 144.0.0.0,,,20-02-2026 12:45:30,20-02-2026 12:45:30,"0,024s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""), 5)",Chrome 144.0.0.0,,,20-02-2026 12:45:30,20-02-2026 12:45:30,"0,168s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""))))",Chrome 144.0.0.0,,,20-02-2026 12:45:30,20-02-2026 12:45:30,"0,125s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_forms""))))",Chrome 144.0.0.0,,,20-02-2026 12:45:30,20-02-2026 12:45:31,"0,548s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:31,20-02-2026 12:45:32,"1,013s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm""))))",Chrome 144.0.0.0,,,20-02-2026 12:45:32,20-02-2026 12:45:32,"0,083s",PASSED
+waitForPageLoad(5),Chrome 144.0.0.0,,,20-02-2026 12:45:32,20-02-2026 12:45:32,"0,048s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label""), 1)",Chrome 144.0.0.0,,,20-02-2026 12:45:32,20-02-2026 12:45:32,"0,053s",PASSED
+if (FirstName),Chrome 144.0.0.0,,,20-02-2026 12:45:32,20-02-2026 12:45:32,"0,269s",PASSED
+if (LastName),Chrome 144.0.0.0,,,20-02-2026 12:45:32,20-02-2026 12:45:32,"0,296s",PASSED
+if (StudentEmail),Chrome 144.0.0.0,,,20-02-2026 12:45:32,20-02-2026 12:45:33,"0,302s",PASSED
+"if (!(Scenario.startsWith(""TC005"")))",Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,001s",PASSED
+if (MobileNumber),Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,394s",PASSED
+"if (Scenario.startsWith(""TC009""))",Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,001s",PASSED
+"dobParts = DateOfBirth.split(""-"")",Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,001s",PASSED
+dobYear = dobParts[0],Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,001s",PASSED
+dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1),Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,001s",PASSED
+dobDay = String.valueOf(Integer.parseInt(dobParts[2])),Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,001s",PASSED
+"executeJavaScript(""document.getElementById('dateOfBirthInput').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,070s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__year-select').value='"" + dobYear + ""'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,048s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__month-select').value='"" + dobMonth + ""'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,051s",PASSED
+"executeJavaScript(""var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='"" + dobDay + ""'){d.click();break;}}"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:33,"0,045s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:33,20-02-2026 12:45:34,"1,018s",PASSED
+"setText(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput""), ""A"")",Chrome 144.0.0.0,,,20-02-2026 12:45:34,20-02-2026 12:45:35,"0,382s",PASSED
+"executeJavaScript(""document.querySelector('[id^=react-select-2-option]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:35,20-02-2026 12:45:35,"0,033s",PASSED
+"executeJavaScript(""document.querySelector('label[for=hobbies-checkbox-3]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:35,20-02-2026 12:45:35,"0,032s",PASSED
+"uploadFile(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture""), getProjectDir() + ""/Data Files/student_photo.jpg"")",Chrome 144.0.0.0,,,20-02-2026 12:45:35,20-02-2026 12:45:35,"0,082s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:45:35,20-02-2026 12:45:35,"0,087s",PASSED
+if (CurrentAddress),Chrome 144.0.0.0,,,20-02-2026 12:45:35,20-02-2026 12:45:35,"0,260s",PASSED
+"executeJavaScript(""window.scrollBy(0, 300)"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:35,20-02-2026 12:45:35,"0,019s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:35,20-02-2026 12:45:36,"1,018s",PASSED
+"executeJavaScript(""var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:36,20-02-2026 12:45:36,"0,027s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:36,20-02-2026 12:45:37,"1,009s",PASSED
+"if (Scenario.startsWith(""TC007""))",Chrome 144.0.0.0,,,20-02-2026 12:45:37,20-02-2026 12:45:37,"0,001s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:45:37,20-02-2026 12:45:37,"0,131s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""))",Chrome 144.0.0.0,,,20-02-2026 12:45:37,20-02-2026 12:45:38,"0,164s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:38,20-02-2026 12:45:39,"1,011s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:45:39,20-02-2026 12:45:39,"0,022s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(State))",Chrome 144.0.0.0,,,20-02-2026 12:45:39,20-02-2026 12:45:39,"0,051s",PASSED
+delay(2),Chrome 144.0.0.0,,,20-02-2026 12:45:39,20-02-2026 12:45:41,"2,009s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:45:41,20-02-2026 12:45:41,"0,050s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""))",Chrome 144.0.0.0,,,20-02-2026 12:45:41,20-02-2026 12:45:41,"0,128s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:41,20-02-2026 12:45:42,"1,003s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:45:42,20-02-2026 12:45:42,"0,019s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(City))",Chrome 144.0.0.0,,,20-02-2026 12:45:42,20-02-2026 12:45:42,"0,028s",PASSED
+"executeJavaScript(""document.getElementById('submit').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:42,20-02-2026 12:45:42,"0,061s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:42,20-02-2026 12:45:43,"1,013s",PASSED
+"popup = executeJavaScript(""return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:43,20-02-2026 12:45:43,"0,040s",PASSED
+"formSubmitted = popup.equals(""Thanks for submitting the form"")",Chrome 144.0.0.0,,,20-02-2026 12:45:43,20-02-2026 12:45:43,"0,002s",PASSED
+"shouldPass = ExpectedResult.equals(""PASS"")",Chrome 144.0.0.0,,,20-02-2026 12:45:43,20-02-2026 12:45:43,"0,001s",PASSED
+"if (Scenario.startsWith(""TC008""))",Chrome 144.0.0.0,,,20-02-2026 12:45:43,20-02-2026 12:45:43,"0,002s",PASSED
+takeScreenshot(),Chrome 144.0.0.0,,,20-02-2026 12:45:43,20-02-2026 12:45:43,"0,255s",PASSED
+if (formSubmitted == shouldPass),Chrome 144.0.0.0,,,20-02-2026 12:45:43,20-02-2026 12:45:43,"0,005s",PASSED
+if (formSubmitted),Chrome 144.0.0.0,,,20-02-2026 12:45:43,20-02-2026 12:45:43,"0,001s",PASSED
+delay(3),Chrome 144.0.0.0,,,20-02-2026 12:45:43,20-02-2026 12:45:46,"3,017s",PASSED
+closeBrowser(),Chrome 144.0.0.0,,,20-02-2026 12:45:46,20-02-2026 12:45:47,"0,435s",PASSED
+,,,,,,,
+Test Cases/TC_StudentForm_DDT,Chrome 144.0.0.0,DDT Student Form - runs all rows from Student Data Scenario.csv,,20-02-2026 12:45:47,20-02-2026 12:46:07,"20,081s",PASSED
+"openBrowser("""")",Chrome 144.0.0.0,,,20-02-2026 12:45:47,20-02-2026 12:45:48,"1,048s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 144.0.0.0,,,20-02-2026 12:45:48,20-02-2026 12:45:50,"2,081s",PASSED
+maximizeWindow(),Chrome 144.0.0.0,,,20-02-2026 12:45:50,20-02-2026 12:45:50,"0,055s",PASSED
+waitForPageLoad(10),Chrome 144.0.0.0,,,20-02-2026 12:45:50,20-02-2026 12:45:50,"0,024s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""), 5)",Chrome 144.0.0.0,,,20-02-2026 12:45:50,20-02-2026 12:45:50,"0,059s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""))))",Chrome 144.0.0.0,,,20-02-2026 12:45:50,20-02-2026 12:45:50,"0,211s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_forms""))))",Chrome 144.0.0.0,,,20-02-2026 12:45:50,20-02-2026 12:45:51,"0,484s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:51,20-02-2026 12:45:52,"1,018s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm""))))",Chrome 144.0.0.0,,,20-02-2026 12:45:52,20-02-2026 12:45:52,"0,110s",PASSED
+waitForPageLoad(5),Chrome 144.0.0.0,,,20-02-2026 12:45:52,20-02-2026 12:45:52,"0,043s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label""), 1)",Chrome 144.0.0.0,,,20-02-2026 12:45:52,20-02-2026 12:45:52,"0,057s",PASSED
+if (FirstName),Chrome 144.0.0.0,,,20-02-2026 12:45:52,20-02-2026 12:45:52,"0,328s",PASSED
+if (LastName),Chrome 144.0.0.0,,,20-02-2026 12:45:52,20-02-2026 12:45:53,"0,317s",PASSED
+if (StudentEmail),Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,385s",PASSED
+"if (!(Scenario.startsWith(""TC005"")))",Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,041s",PASSED
+if (MobileNumber),Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,000s",PASSED
+"if (Scenario.startsWith(""TC009""))",Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,002s",PASSED
+"dobParts = DateOfBirth.split(""-"")",Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,001s",PASSED
+dobYear = dobParts[0],Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,000s",PASSED
+dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1),Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,000s",PASSED
+dobDay = String.valueOf(Integer.parseInt(dobParts[2])),Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,000s",PASSED
+"executeJavaScript(""document.getElementById('dateOfBirthInput').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,062s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__year-select').value='"" + dobYear + ""'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,041s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__month-select').value='"" + dobMonth + ""'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,052s",PASSED
+"executeJavaScript(""var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='"" + dobDay + ""'){d.click();break;}}"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:53,"0,027s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:53,20-02-2026 12:45:54,"1,015s",PASSED
+"setText(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput""), ""A"")",Chrome 144.0.0.0,,,20-02-2026 12:45:54,20-02-2026 12:45:55,"0,472s",PASSED
+"executeJavaScript(""document.querySelector('[id^=react-select-2-option]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:55,20-02-2026 12:45:55,"0,023s",PASSED
+"executeJavaScript(""document.querySelector('label[for=hobbies-checkbox-3]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:55,20-02-2026 12:45:55,"0,026s",PASSED
+"uploadFile(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture""), getProjectDir() + ""/Data Files/student_photo.jpg"")",Chrome 144.0.0.0,,,20-02-2026 12:45:55,20-02-2026 12:45:55,"0,118s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:45:55,20-02-2026 12:45:55,"0,076s",PASSED
+if (CurrentAddress),Chrome 144.0.0.0,,,20-02-2026 12:45:55,20-02-2026 12:45:55,"0,227s",PASSED
+"executeJavaScript(""window.scrollBy(0, 300)"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:55,20-02-2026 12:45:55,"0,032s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:55,20-02-2026 12:45:56,"1,013s",PASSED
+"executeJavaScript(""var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});"", null)",Chrome 144.0.0.0,,,20-02-2026 12:45:56,20-02-2026 12:45:56,"0,021s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:56,20-02-2026 12:45:57,"1,009s",PASSED
+"if (Scenario.startsWith(""TC007""))",Chrome 144.0.0.0,,,20-02-2026 12:45:57,20-02-2026 12:45:57,"0,001s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:45:57,20-02-2026 12:45:57,"0,097s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""))",Chrome 144.0.0.0,,,20-02-2026 12:45:57,20-02-2026 12:45:58,"0,141s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:45:58,20-02-2026 12:45:59,"1,011s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:45:59,20-02-2026 12:45:59,"0,033s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(State))",Chrome 144.0.0.0,,,20-02-2026 12:45:59,20-02-2026 12:45:59,"0,043s",PASSED
+delay(2),Chrome 144.0.0.0,,,20-02-2026 12:45:59,20-02-2026 12:46:01,"2,008s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:46:01,20-02-2026 12:46:01,"0,058s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""))",Chrome 144.0.0.0,,,20-02-2026 12:46:01,20-02-2026 12:46:01,"0,218s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:01,20-02-2026 12:46:02,"1,015s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:46:02,20-02-2026 12:46:02,"0,024s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(City))",Chrome 144.0.0.0,,,20-02-2026 12:46:02,20-02-2026 12:46:02,"0,034s",PASSED
+"executeJavaScript(""document.getElementById('submit').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:02,20-02-2026 12:46:02,"0,039s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:02,20-02-2026 12:46:03,"1,008s",PASSED
+"popup = executeJavaScript(""return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:03,20-02-2026 12:46:03,"0,037s",PASSED
+"formSubmitted = popup.equals(""Thanks for submitting the form"")",Chrome 144.0.0.0,,,20-02-2026 12:46:03,20-02-2026 12:46:03,"0,002s",PASSED
+"shouldPass = ExpectedResult.equals(""PASS"")",Chrome 144.0.0.0,,,20-02-2026 12:46:03,20-02-2026 12:46:03,"0,003s",PASSED
+"if (Scenario.startsWith(""TC008""))",Chrome 144.0.0.0,,,20-02-2026 12:46:03,20-02-2026 12:46:03,"0,002s",PASSED
+takeScreenshot(),Chrome 144.0.0.0,,,20-02-2026 12:46:03,20-02-2026 12:46:03,"0,236s",PASSED
+if (formSubmitted == shouldPass),Chrome 144.0.0.0,,,20-02-2026 12:46:03,20-02-2026 12:46:03,"0,005s",PASSED
+if (formSubmitted),Chrome 144.0.0.0,,,20-02-2026 12:46:03,20-02-2026 12:46:03,"0,000s",PASSED
+delay(3),Chrome 144.0.0.0,,,20-02-2026 12:46:03,20-02-2026 12:46:06,"3,019s",PASSED
+closeBrowser(),Chrome 144.0.0.0,,,20-02-2026 12:46:06,20-02-2026 12:46:07,"0,482s",PASSED
+,,,,,,,
+Test Cases/TC_StudentForm_DDT,Chrome 144.0.0.0,DDT Student Form - runs all rows from Student Data Scenario.csv,,20-02-2026 12:46:07,20-02-2026 12:46:18,"11,346s",PASSED
+"openBrowser("""")",Chrome 144.0.0.0,,,20-02-2026 12:46:07,20-02-2026 12:46:08,"0,981s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 144.0.0.0,,,20-02-2026 12:46:08,20-02-2026 12:46:10,"2,008s",PASSED
+maximizeWindow(),Chrome 144.0.0.0,,,20-02-2026 12:46:10,20-02-2026 12:46:10,"0,069s",PASSED
+waitForPageLoad(10),Chrome 144.0.0.0,,,20-02-2026 12:46:10,20-02-2026 12:46:10,"0,020s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""), 5)",Chrome 144.0.0.0,,,20-02-2026 12:46:10,20-02-2026 12:46:10,"0,058s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""))))",Chrome 144.0.0.0,,,20-02-2026 12:46:10,20-02-2026 12:46:10,"0,170s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_forms""))))",Chrome 144.0.0.0,,,20-02-2026 12:46:10,20-02-2026 12:46:11,"0,461s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:11,20-02-2026 12:46:12,"1,019s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm""))))",Chrome 144.0.0.0,,,20-02-2026 12:46:12,20-02-2026 12:46:12,"0,129s",PASSED
+waitForPageLoad(5),Chrome 144.0.0.0,,,20-02-2026 12:46:12,20-02-2026 12:46:12,"0,033s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label""), 1)",Chrome 144.0.0.0,,,20-02-2026 12:46:12,20-02-2026 12:46:12,"0,067s",PASSED
+if (FirstName),Chrome 144.0.0.0,,,20-02-2026 12:46:12,20-02-2026 12:46:12,"0,298s",PASSED
+if (LastName),Chrome 144.0.0.0,,,20-02-2026 12:46:12,20-02-2026 12:46:13,"0,310s",PASSED
+if (StudentEmail),Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,265s",PASSED
+"if (!(Scenario.startsWith(""TC005"")))",Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,051s",PASSED
+if (MobileNumber),Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,334s",PASSED
+"if (Scenario.startsWith(""TC009""))",Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,000s",PASSED
+"dobParts = DateOfBirth.split(""-"")",Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,001s",PASSED
+dobYear = dobParts[0],Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,001s",PASSED
+dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1),Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,000s",PASSED
+dobDay = String.valueOf(Integer.parseInt(dobParts[2])),Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,000s",PASSED
+"executeJavaScript(""document.getElementById('dateOfBirthInput').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,075s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__year-select').value='"" + dobYear + ""'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,045s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__month-select').value='"" + dobMonth + ""'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,055s",PASSED
+"executeJavaScript(""var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='"" + dobDay + ""'){d.click();break;}}"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:13,"0,041s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:13,20-02-2026 12:46:14,"1,014s",PASSED
+"setText(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput""), ""A"")",Chrome 144.0.0.0,,,20-02-2026 12:46:14,20-02-2026 12:46:15,"0,395s",PASSED
+"executeJavaScript(""document.querySelector('[id^=react-select-2-option]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:15,20-02-2026 12:46:15,"0,029s",PASSED
+"executeJavaScript(""document.querySelector('label[for=hobbies-checkbox-3]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:15,20-02-2026 12:46:15,"0,025s",PASSED
+"uploadFile(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture""), getProjectDir() + ""/Data Files/student_photo.jpg"")",Chrome 144.0.0.0,,,20-02-2026 12:46:15,20-02-2026 12:46:15,"0,078s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:46:15,20-02-2026 12:46:15,"0,060s",PASSED
+if (CurrentAddress),Chrome 144.0.0.0,,,20-02-2026 12:46:15,20-02-2026 12:46:15,"0,433s",PASSED
+"executeJavaScript(""window.scrollBy(0, 300)"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:15,20-02-2026 12:46:15,"0,029s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:15,20-02-2026 12:46:17,"1,011s",PASSED
+"executeJavaScript(""var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:17,20-02-2026 12:46:17,"0,037s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:17,20-02-2026 12:46:18,"1,006s",PASSED
+"if (Scenario.startsWith(""TC007""))",Chrome 144.0.0.0,,,20-02-2026 12:46:18,20-02-2026 12:46:18,"0,681s",PASSED
+,,,,,,,
+Test Cases/TC_StudentForm_DDT,Chrome 144.0.0.0,DDT Student Form - runs all rows from Student Data Scenario.csv,,20-02-2026 12:46:18,20-02-2026 12:46:38,"19,248s",PASSED
+"openBrowser("""")",Chrome 144.0.0.0,,,20-02-2026 12:46:18,20-02-2026 12:46:20,"1,120s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 144.0.0.0,,,20-02-2026 12:46:20,20-02-2026 12:46:23,"3,578s",PASSED
+maximizeWindow(),Chrome 144.0.0.0,,,20-02-2026 12:46:23,20-02-2026 12:46:23,"0,071s",PASSED
+waitForPageLoad(10),Chrome 144.0.0.0,,,20-02-2026 12:46:23,20-02-2026 12:46:23,"0,021s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""), 5)",Chrome 144.0.0.0,,,20-02-2026 12:46:23,20-02-2026 12:46:23,"0,162s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""))))",Chrome 144.0.0.0,,,20-02-2026 12:46:23,20-02-2026 12:46:23,"0,077s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_forms""))))",Chrome 144.0.0.0,,,20-02-2026 12:46:23,20-02-2026 12:46:24,"0,395s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:24,20-02-2026 12:46:25,"1,013s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm""))))",Chrome 144.0.0.0,,,20-02-2026 12:46:25,20-02-2026 12:46:25,"0,239s",PASSED
+waitForPageLoad(5),Chrome 144.0.0.0,,,20-02-2026 12:46:25,20-02-2026 12:46:25,"0,032s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label""), 1)",Chrome 144.0.0.0,,,20-02-2026 12:46:25,20-02-2026 12:46:25,"0,053s",PASSED
+if (FirstName),Chrome 144.0.0.0,,,20-02-2026 12:46:25,20-02-2026 12:46:26,"0,380s",PASSED
+if (LastName),Chrome 144.0.0.0,,,20-02-2026 12:46:26,20-02-2026 12:46:26,"0,255s",PASSED
+if (StudentEmail),Chrome 144.0.0.0,,,20-02-2026 12:46:26,20-02-2026 12:46:26,"0,393s",PASSED
+"if (!(Scenario.startsWith(""TC005"")))",Chrome 144.0.0.0,,,20-02-2026 12:46:26,20-02-2026 12:46:26,"0,026s",PASSED
+if (MobileNumber),Chrome 144.0.0.0,,,20-02-2026 12:46:26,20-02-2026 12:46:27,"0,301s",PASSED
+"if (Scenario.startsWith(""TC009""))",Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:27,"0,001s",PASSED
+"dobParts = DateOfBirth.split(""-"")",Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:27,"0,001s",PASSED
+dobYear = dobParts[0],Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:27,"0,002s",PASSED
+dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1),Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:27,"0,001s",PASSED
+dobDay = String.valueOf(Integer.parseInt(dobParts[2])),Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:27,"0,002s",PASSED
+"executeJavaScript(""document.getElementById('dateOfBirthInput').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:27,"0,108s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__year-select').value='"" + dobYear + ""'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:27,"0,053s",PASSED
+"executeJavaScript(""document.querySelector('.react-datepicker__month-select').value='"" + dobMonth + ""'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:27,"0,040s",PASSED
+"executeJavaScript(""var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='"" + dobDay + ""'){d.click();break;}}"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:27,"0,038s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:27,20-02-2026 12:46:28,"1,012s",PASSED
+"setText(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput""), ""A"")",Chrome 144.0.0.0,,,20-02-2026 12:46:28,20-02-2026 12:46:28,"0,439s",PASSED
+"executeJavaScript(""document.querySelector('[id^=react-select-2-option]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:28,20-02-2026 12:46:28,"0,036s",PASSED
+"executeJavaScript(""document.querySelector('label[for=hobbies-checkbox-3]').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:28,20-02-2026 12:46:28,"0,057s",PASSED
+"uploadFile(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture""), getProjectDir() + ""/Data Files/student_photo.jpg"")",Chrome 144.0.0.0,,,20-02-2026 12:46:28,20-02-2026 12:46:28,"0,116s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:46:28,20-02-2026 12:46:29,"0,105s",PASSED
+if (CurrentAddress),Chrome 144.0.0.0,,,20-02-2026 12:46:29,20-02-2026 12:46:29,"0,338s",PASSED
+"executeJavaScript(""window.scrollBy(0, 300)"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:29,20-02-2026 12:46:29,"0,017s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:29,20-02-2026 12:46:30,"1,015s",PASSED
+"executeJavaScript(""var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:30,20-02-2026 12:46:30,"0,069s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:30,20-02-2026 12:46:31,"1,005s",PASSED
+"if (Scenario.startsWith(""TC007""))",Chrome 144.0.0.0,,,20-02-2026 12:46:31,20-02-2026 12:46:31,"0,001s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:46:31,20-02-2026 12:46:31,"0,097s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_state_container""))",Chrome 144.0.0.0,,,20-02-2026 12:46:31,20-02-2026 12:46:31,"0,168s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:31,20-02-2026 12:46:32,"1,021s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:46:32,20-02-2026 12:46:32,"0,034s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(State))",Chrome 144.0.0.0,,,20-02-2026 12:46:32,20-02-2026 12:46:32,"0,023s",PASSED
+delay(2),Chrome 144.0.0.0,,,20-02-2026 12:46:32,20-02-2026 12:46:34,"2,017s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""), 3)",Chrome 144.0.0.0,,,20-02-2026 12:46:34,20-02-2026 12:46:34,"0,051s",PASSED
+"click(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/div_city_container""))",Chrome 144.0.0.0,,,20-02-2026 12:46:34,20-02-2026 12:46:35,"0,197s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:35,20-02-2026 12:46:36,"1,011s",PASSED
+"for ([i = 0, i < 10, (i++)])",Chrome 144.0.0.0,,,20-02-2026 12:46:36,20-02-2026 12:46:36,"0,039s",PASSED
+"executeJavaScript(""var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}"", Arrays.asList(City))",Chrome 144.0.0.0,,,20-02-2026 12:46:36,20-02-2026 12:46:36,"0,035s",PASSED
+"executeJavaScript(""document.getElementById('submit').click();"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:36,20-02-2026 12:46:36,"0,056s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:36,20-02-2026 12:46:37,"1,018s",PASSED
+"popup = executeJavaScript(""return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';"", null)",Chrome 144.0.0.0,,,20-02-2026 12:46:37,20-02-2026 12:46:37,"0,017s",PASSED
+"formSubmitted = popup.equals(""Thanks for submitting the form"")",Chrome 144.0.0.0,,,20-02-2026 12:46:37,20-02-2026 12:46:37,"0,000s",PASSED
+"shouldPass = ExpectedResult.equals(""PASS"")",Chrome 144.0.0.0,,,20-02-2026 12:46:37,20-02-2026 12:46:37,"0,000s",PASSED
+"if (Scenario.startsWith(""TC008""))",Chrome 144.0.0.0,,,20-02-2026 12:46:37,20-02-2026 12:46:38,"0,805s",PASSED
+,,,,,,,
+Test Cases/TC_StudentForm_DDT,Chrome 144.0.0.0,DDT Student Form - runs all rows from Student Data Scenario.csv,,20-02-2026 12:46:38,20-02-2026 12:46:45,"7,453s",PASSED
+"openBrowser("""")",Chrome 144.0.0.0,,,20-02-2026 12:46:38,20-02-2026 12:46:39,"0,919s",PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 144.0.0.0,,,20-02-2026 12:46:39,20-02-2026 12:46:42,"3,674s",PASSED
+maximizeWindow(),Chrome 144.0.0.0,,,20-02-2026 12:46:42,20-02-2026 12:46:42,"0,079s",PASSED
+waitForPageLoad(10),Chrome 144.0.0.0,,,20-02-2026 12:46:42,20-02-2026 12:46:42,"0,020s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""), 5)",Chrome 144.0.0.0,,,20-02-2026 12:46:42,20-02-2026 12:46:43,"0,191s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/card_elements""))))",Chrome 144.0.0.0,,,20-02-2026 12:46:43,20-02-2026 12:46:43,"0,090s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_forms""))))",Chrome 144.0.0.0,,,20-02-2026 12:46:43,20-02-2026 12:46:43,"0,382s",PASSED
+delay(1),Chrome 144.0.0.0,,,20-02-2026 12:46:43,20-02-2026 12:46:44,"1,009s",PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm""))))",Chrome 144.0.0.0,,,20-02-2026 12:46:44,20-02-2026 12:46:44,"0,144s",PASSED
+waitForPageLoad(5),Chrome 144.0.0.0,,,20-02-2026 12:46:44,20-02-2026 12:46:44,"0,046s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label""), 1)",Chrome 144.0.0.0,,,20-02-2026 12:46:44,20-02-2026 12:46:44,"0,059s",PASSED
+if (FirstName),Chrome 144.0.0.0,,,20-02-2026 12:46:44,20-02-2026 12:46:44,"0,001s",PASSED
+if (LastName),Chrome 144.0.0.0,,,20-02-2026 12:46:44,20-02-2026 12:46:44,"0,001s",PASSED
+if (StudentEmail),Chrome 144.0.0.0,,,20-02-2026 12:46:44,20-02-2026 12:46:44,"0,001s",PASSED
+"if (!(Scenario.startsWith(""TC005"")))",Chrome 144.0.0.0,,,20-02-2026 12:46:44,20-02-2026 12:46:44,"0,028s",PASSED
+if (MobileNumber),Chrome 144.0.0.0,,,20-02-2026 12:46:44,20-02-2026 12:46:44,"0,000s",PASSED
+"if (Scenario.startsWith(""TC009""))",Chrome 144.0.0.0,,,20-02-2026 12:46:44,20-02-2026 12:46:45,"0,767s",PASSED

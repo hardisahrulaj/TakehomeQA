@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <globalVariableEntity>
+      <description>Absolute path to student photo for upload</description>
+      <initValue>'C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Data Files\\student_photo.jpg'</initValue>
+      <name>picturePath</name>
+   </globalVariableEntity>
+</GlobalVariableEntities>

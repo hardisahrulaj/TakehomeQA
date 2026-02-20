@@ -1,0 +1,7 @@
+# Newman report outputs (keep existing reports, ignore future regenerated ones)
+# Uncomment below if you want reports excluded:
+# reports/
+
+# OS files
+.DS_Store
+Thumbs.db
