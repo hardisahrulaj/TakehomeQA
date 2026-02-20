@@ -1,7 +1,7 @@
 # QA Automation Take Home Test
 
 **Hardi Sahrul A.J**
-📧 sahrulhardi09@gmail.com · 📱 +62 853 8626 4727 · 📍 Bojonggede, Kab. Bogor · [LinkedIn](https://www.linkedin.com/in/hardi-s)
+📧 sahrulhardi09@gmail.com · 📱 +62 853 8626 4727 · 📍 Bukit Duri, Tebet · [LinkedIn](https://www.linkedin.com/in/hardi-s)
 
 ---
 
