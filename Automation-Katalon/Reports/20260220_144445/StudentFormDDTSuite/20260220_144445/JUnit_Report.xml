@@ -1,0 +1,2032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="StudentFormDDTSuite" time="180.317" tests="9" failures="0" errors="0">
+   <testsuite name="StudentFormDDTSuite" tests="9" failures="0" errors="0" time="180.317" skipped="0" timestamp="20-02-2026T14:44:50" hostname="sahru - 192.168.0.174" id="Test Suites/StudentFormDDTSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445"/>
+         <property name="logFiles" value="C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573513734.png, C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573535764.png, C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573558450.png, C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573581906.png, C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573605336.png, C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573626443.png, C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573641959.png, C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573661426.png, C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573669951.png"/>
+         <property name="hostName" value="sahru - 192.168.0.174"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 144.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.174"/>
+         <property name="sessionId" value="265c038f88c01818c2ed2de33593db2b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_StudentForm_DDT" time="27.887" classname="Test Cases/TC_StudentForm_DDT" status="PASSED">
+         <system-out><![CDATA[20-02-2026T14:44:50 - [TEST_CASE][PASSED] - Test Cases/TC_StudentForm_DDT: Test Cases/TC_StudentForm_DDT
+
+20-02-2026T14:44:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2026T14:44:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2026T14:44:52 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+20-02-2026T14:44:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2026T14:44:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2026T14:44:55 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:44:58 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:44:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2026T14:44:58 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2026T14:44:58 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+20-02-2026T14:44:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:44:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements"), 5): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:44:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:44:59 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:44:59 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/card_elements
+
+20-02-2026T14:44:59 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:44:59 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_forms")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:44:59 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_forms
+
+20-02-2026T14:45:00 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:01 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:01 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm
+
+20-02-2026T14:45:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:01 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+20-02-2026T14:45:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:45:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label"), 1): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:45:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:45:01 - [TEST_STEP][PASSED] - if (FirstName): Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:45:02 - [MESSAGE][PASSED] - Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:45:02 - [TEST_STEP][PASSED] - if (LastName): Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:45:02 - [MESSAGE][PASSED] - Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:45:02 - [TEST_STEP][PASSED] - if (StudentEmail): Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:45:02 - [MESSAGE][PASSED] - Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:45:02 - [TEST_STEP][PASSED] - if (!(Scenario.startsWith("TC005"))): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:45:02 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=gender-radio-1]').click();", null): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:45:02 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:45:02 - [TEST_STEP][PASSED] - if (MobileNumber): Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:45:03 - [MESSAGE][PASSED] - Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC009")): null
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - dobParts = DateOfBirth.split("-"): null
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - dobYear = dobParts[0]: null
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1): null
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - dobDay = String.valueOf(Integer.parseInt(dobParts[2])): null
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('dateOfBirthInput').click();", null): Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:45:03 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__year-select').value='" + dobYear + "'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:03 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__month-select').value='" + dobMonth + "'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:03 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - executeJavaScript("var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='" + dobDay + "'){d.click();break;}}", null): Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:45:03 - [MESSAGE][PASSED] - Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:45:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput"), "A"): Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:45:04 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:45:04 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('[id^=react-select-2-option]').click();", null): Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:45:04 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:45:04 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=hobbies-checkbox-3]').click();", null): Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:45:04 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:45:04 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture"), getProjectDir() + "/Data Files/student_photo.jpg"): File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:45:05 - [MESSAGE][PASSED] - File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:45:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:45:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:45:05 - [TEST_STEP][PASSED] - if (CurrentAddress): Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:45:05 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:45:05 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollBy(0, 300)", null): Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:45:05 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:45:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:06 - [TEST_STEP][PASSED] - executeJavaScript("var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});", null): Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:45:06 - [MESSAGE][PASSED] - Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:45:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:07 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC007")): null
+
+20-02-2026T14:45:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:45:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:45:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:45:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:09 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:45:09 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-3-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:45:09 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:45:09 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:45:09 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(State)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:09 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2026T14:45:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2026T14:45:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:45:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:45:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:45:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:12 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:45:12 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-4-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:45:12 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:45:12 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:45:12 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(City)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:12 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:12 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('submit').click();", null): Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:45:12 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:45:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:13 - [TEST_STEP][PASSED] - popup = executeJavaScript("return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';", null): Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:45:13 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:45:13 - [TEST_STEP][PASSED] - formSubmitted = popup.equals("Thanks for submitting the form"): null
+
+20-02-2026T14:45:13 - [TEST_STEP][PASSED] - shouldPass = ExpectedResult.equals("PASS"): null
+
+20-02-2026T14:45:13 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC008")): null
+
+20-02-2026T14:45:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-02-2026T14:45:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573513734.png]]
+
+20-02-2026T14:45:13 - [TEST_STEP][PASSED] - if (formSubmitted == shouldPass): [TC001_ValidSubmit] Result matches expected: PASS
+
+20-02-2026T14:45:13 - [TEST_STEP][PASSED] - markPassed("[" + Scenario + "] Result matches expected: " + ExpectedResult): [TC001_ValidSubmit] Result matches expected: PASS
+
+20-02-2026T14:45:13 - [MESSAGE][PASSED] - [TC001_ValidSubmit] Result matches expected: PASS
+
+20-02-2026T14:45:13 - [TEST_STEP][PASSED] - if (formSubmitted): Execute JavaScript 'document.body.style.zoom='100%'' successfully
+
+20-02-2026T14:45:13 - [TEST_STEP][PASSED] - executeJavaScript("document.body.style.zoom='60%'", null): Execute JavaScript 'document.body.style.zoom='60%'' successfully
+
+20-02-2026T14:45:14 - [MESSAGE][PASSED] - Execute JavaScript 'document.body.style.zoom='60%'' successfully
+
+20-02-2026T14:45:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:15 - [TEST_STEP][PASSED] - executeJavaScript("var btn=document.getElementById('closeLargeModal'); if(btn) btn.click();", null): Execute JavaScript 'var btn=document.getElementById('closeLargeModal'); if(btn) btn.click();' successfully
+
+20-02-2026T14:45:15 - [MESSAGE][PASSED] - Execute JavaScript 'var btn=document.getElementById('closeLargeModal'); if(btn) btn.click();' successfully
+
+20-02-2026T14:45:15 - [TEST_STEP][PASSED] - executeJavaScript("document.body.style.zoom='100%'", null): Execute JavaScript 'document.body.style.zoom='100%'' successfully
+
+20-02-2026T14:45:15 - [MESSAGE][PASSED] - Execute JavaScript 'document.body.style.zoom='100%'' successfully
+
+20-02-2026T14:45:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-02-2026T14:45:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-02-2026T14:45:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-02-2026T14:45:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_StudentForm_DDT" time="20.74" classname="Test Cases/TC_StudentForm_DDT" status="PASSED">
+         <system-out><![CDATA[20-02-2026T14:45:18 - [TEST_CASE][PASSED] - Test Cases/TC_StudentForm_DDT: Test Cases/TC_StudentForm_DDT
+
+20-02-2026T14:45:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2026T14:45:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2026T14:45:18 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+20-02-2026T14:45:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2026T14:45:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2026T14:45:19 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:45:21 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:45:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2026T14:45:22 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2026T14:45:22 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+20-02-2026T14:45:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:45:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements"), 5): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:45:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:45:22 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:22 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/card_elements
+
+20-02-2026T14:45:22 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:22 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_forms")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:23 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_forms
+
+20-02-2026T14:45:23 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:24 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:24 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm
+
+20-02-2026T14:45:24 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:24 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+20-02-2026T14:45:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:45:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label"), 1): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:45:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:45:24 - [TEST_STEP][PASSED] - if (FirstName): Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:45:24 - [MESSAGE][PASSED] - Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:45:24 - [TEST_STEP][PASSED] - if (LastName): null
+
+20-02-2026T14:45:24 - [TEST_STEP][PASSED] - if (StudentEmail): Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:45:25 - [MESSAGE][PASSED] - Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - if (!(Scenario.startsWith("TC005"))): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=gender-radio-1]').click();", null): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:45:25 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - if (MobileNumber): Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:45:25 - [MESSAGE][PASSED] - Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC009")): null
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - dobParts = DateOfBirth.split("-"): null
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - dobYear = dobParts[0]: null
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1): null
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - dobDay = String.valueOf(Integer.parseInt(dobParts[2])): null
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('dateOfBirthInput').click();", null): Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:45:25 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__year-select').value='" + dobYear + "'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:25 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__month-select').value='" + dobMonth + "'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:25 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - executeJavaScript("var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='" + dobDay + "'){d.click();break;}}", null): Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:45:25 - [MESSAGE][PASSED] - Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:45:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput"), "A"): Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:45:27 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:45:27 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('[id^=react-select-2-option]').click();", null): Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:45:27 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:45:27 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=hobbies-checkbox-3]').click();", null): Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:45:27 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:45:27 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture"), getProjectDir() + "/Data Files/student_photo.jpg"): File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:45:27 - [MESSAGE][PASSED] - File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:45:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:45:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:45:27 - [TEST_STEP][PASSED] - if (CurrentAddress): Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:45:27 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:45:27 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollBy(0, 300)", null): Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:45:27 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:45:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:28 - [TEST_STEP][PASSED] - executeJavaScript("var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});", null): Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:45:28 - [MESSAGE][PASSED] - Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:45:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:29 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC007")): null
+
+20-02-2026T14:45:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:45:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:45:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:45:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:31 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:45:31 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-3-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:45:31 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:45:31 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:45:31 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(State)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:31 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2026T14:45:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2026T14:45:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:45:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:45:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:34 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:45:34 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-4-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:45:34 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:45:34 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:45:34 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(City)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:34 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:34 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('submit').click();", null): Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:45:34 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:45:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:35 - [TEST_STEP][PASSED] - popup = executeJavaScript("return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';", null): Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:45:35 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:45:35 - [TEST_STEP][PASSED] - formSubmitted = popup.equals("Thanks for submitting the form"): null
+
+20-02-2026T14:45:35 - [TEST_STEP][PASSED] - shouldPass = ExpectedResult.equals("PASS"): null
+
+20-02-2026T14:45:35 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC008")): null
+
+20-02-2026T14:45:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-02-2026T14:45:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573535764.png]]
+
+20-02-2026T14:45:35 - [TEST_STEP][PASSED] - if (formSubmitted == shouldPass): [TC002_NoLastName] Result matches expected: FAIL
+
+20-02-2026T14:45:35 - [TEST_STEP][PASSED] - markPassed("[" + Scenario + "] Result matches expected: " + ExpectedResult): [TC002_NoLastName] Result matches expected: FAIL
+
+20-02-2026T14:45:35 - [MESSAGE][PASSED] - [TC002_NoLastName] Result matches expected: FAIL
+
+20-02-2026T14:45:35 - [TEST_STEP][PASSED] - if (formSubmitted): null
+
+20-02-2026T14:45:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-02-2026T14:45:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-02-2026T14:45:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-02-2026T14:45:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_StudentForm_DDT" time="22.72" classname="Test Cases/TC_StudentForm_DDT" status="PASSED">
+         <system-out><![CDATA[20-02-2026T14:45:39 - [TEST_CASE][PASSED] - Test Cases/TC_StudentForm_DDT: Test Cases/TC_StudentForm_DDT
+
+20-02-2026T14:45:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2026T14:45:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2026T14:45:39 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+20-02-2026T14:45:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2026T14:45:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2026T14:45:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:45:44 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:45:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2026T14:45:44 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2026T14:45:44 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+20-02-2026T14:45:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:45:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements"), 5): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:45:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:45:44 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:44 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/card_elements
+
+20-02-2026T14:45:44 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:44 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_forms")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:45 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_forms
+
+20-02-2026T14:45:45 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:46 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:46 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm
+
+20-02-2026T14:45:46 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:45:46 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+20-02-2026T14:45:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:45:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label"), 1): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:45:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:45:47 - [TEST_STEP][PASSED] - if (FirstName): null
+
+20-02-2026T14:45:47 - [TEST_STEP][PASSED] - if (LastName): Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:45:47 - [MESSAGE][PASSED] - Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:45:47 - [TEST_STEP][PASSED] - if (StudentEmail): Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:45:47 - [MESSAGE][PASSED] - Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:45:47 - [TEST_STEP][PASSED] - if (!(Scenario.startsWith("TC005"))): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:45:47 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=gender-radio-1]').click();", null): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:45:47 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:45:47 - [TEST_STEP][PASSED] - if (MobileNumber): Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:45:48 - [MESSAGE][PASSED] - Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC009")): null
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - dobParts = DateOfBirth.split("-"): null
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - dobYear = dobParts[0]: null
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1): null
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - dobDay = String.valueOf(Integer.parseInt(dobParts[2])): null
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('dateOfBirthInput').click();", null): Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:45:48 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__year-select').value='" + dobYear + "'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:48 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__month-select').value='" + dobMonth + "'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:48 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - executeJavaScript("var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='" + dobDay + "'){d.click();break;}}", null): Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:45:48 - [MESSAGE][PASSED] - Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:45:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput"), "A"): Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:45:50 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:45:50 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('[id^=react-select-2-option]').click();", null): Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:45:50 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:45:50 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=hobbies-checkbox-3]').click();", null): Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:45:50 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:45:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture"), getProjectDir() + "/Data Files/student_photo.jpg"): File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:45:50 - [MESSAGE][PASSED] - File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:45:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:45:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:45:50 - [TEST_STEP][PASSED] - if (CurrentAddress): Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:45:50 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:45:50 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollBy(0, 300)", null): Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:45:50 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:45:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:51 - [TEST_STEP][PASSED] - executeJavaScript("var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});", null): Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:45:51 - [MESSAGE][PASSED] - Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:45:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:52 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC007")): null
+
+20-02-2026T14:45:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:45:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:45:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:45:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:53 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:45:53 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-3-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:45:53 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:45:53 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:45:53 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(State)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:54 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2026T14:45:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2026T14:45:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:45:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:45:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:57 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:45:57 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-4-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:45:57 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:45:57 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:45:57 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(City)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:57 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:45:57 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('submit').click();", null): Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:45:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:45:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:45:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:45:58 - [TEST_STEP][PASSED] - popup = executeJavaScript("return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';", null): Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:45:58 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:45:58 - [TEST_STEP][PASSED] - formSubmitted = popup.equals("Thanks for submitting the form"): null
+
+20-02-2026T14:45:58 - [TEST_STEP][PASSED] - shouldPass = ExpectedResult.equals("PASS"): null
+
+20-02-2026T14:45:58 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC008")): null
+
+20-02-2026T14:45:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-02-2026T14:45:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573558450.png]]
+
+20-02-2026T14:45:58 - [TEST_STEP][PASSED] - if (formSubmitted == shouldPass): [TC003_NoFirstName] Result matches expected: FAIL
+
+20-02-2026T14:45:58 - [TEST_STEP][PASSED] - markPassed("[" + Scenario + "] Result matches expected: " + ExpectedResult): [TC003_NoFirstName] Result matches expected: FAIL
+
+20-02-2026T14:45:58 - [MESSAGE][PASSED] - [TC003_NoFirstName] Result matches expected: FAIL
+
+20-02-2026T14:45:58 - [TEST_STEP][PASSED] - if (formSubmitted): null
+
+20-02-2026T14:45:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-02-2026T14:46:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-02-2026T14:46:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-02-2026T14:46:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_StudentForm_DDT" time="23.483" classname="Test Cases/TC_StudentForm_DDT" status="PASSED">
+         <system-out><![CDATA[20-02-2026T14:46:02 - [TEST_CASE][PASSED] - Test Cases/TC_StudentForm_DDT: Test Cases/TC_StudentForm_DDT
+
+20-02-2026T14:46:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2026T14:46:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2026T14:46:02 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+20-02-2026T14:46:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2026T14:46:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2026T14:46:03 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:46:06 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:46:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2026T14:46:06 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2026T14:46:06 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+20-02-2026T14:46:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:46:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements"), 5): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:46:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:46:06 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:06 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/card_elements
+
+20-02-2026T14:46:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:06 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_forms")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:07 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_forms
+
+20-02-2026T14:46:07 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:08 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:08 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm
+
+20-02-2026T14:46:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:09 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+20-02-2026T14:46:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:46:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label"), 1): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:46:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:46:09 - [TEST_STEP][PASSED] - if (FirstName): Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:46:09 - [MESSAGE][PASSED] - Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:46:09 - [TEST_STEP][PASSED] - if (LastName): Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:46:10 - [MESSAGE][PASSED] - Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - if (StudentEmail): Text 'emailtanpaatsign@' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:46:10 - [MESSAGE][PASSED] - Text 'emailtanpaatsign@' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - if (!(Scenario.startsWith("TC005"))): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=gender-radio-1]').click();", null): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:46:10 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - if (MobileNumber): Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:46:10 - [MESSAGE][PASSED] - Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC009")): null
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - dobParts = DateOfBirth.split("-"): null
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - dobYear = dobParts[0]: null
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1): null
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - dobDay = String.valueOf(Integer.parseInt(dobParts[2])): null
+
+20-02-2026T14:46:10 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('dateOfBirthInput').click();", null): Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:46:11 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:46:11 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__year-select').value='" + dobYear + "'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:11 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:11 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__month-select').value='" + dobMonth + "'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:11 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:11 - [TEST_STEP][PASSED] - executeJavaScript("var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='" + dobDay + "'){d.click();break;}}", null): Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:46:11 - [MESSAGE][PASSED] - Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:46:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput"), "A"): Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:46:12 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:46:12 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('[id^=react-select-2-option]').click();", null): Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:46:12 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:46:12 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=hobbies-checkbox-3]').click();", null): Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:46:12 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:46:12 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture"), getProjectDir() + "/Data Files/student_photo.jpg"): File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:46:13 - [MESSAGE][PASSED] - File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:46:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:46:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:46:13 - [TEST_STEP][PASSED] - if (CurrentAddress): Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:46:13 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:46:13 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollBy(0, 300)", null): Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:46:13 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:46:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:14 - [TEST_STEP][PASSED] - executeJavaScript("var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});", null): Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:46:15 - [MESSAGE][PASSED] - Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:46:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:16 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC007")): null
+
+20-02-2026T14:46:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:46:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:46:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:46:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:17 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:46:17 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-3-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:46:17 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:46:17 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:46:17 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(State)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:46:17 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:46:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2026T14:46:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2026T14:46:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:46:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:46:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:20 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:46:20 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-4-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:46:20 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:46:20 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:46:20 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(City)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:46:20 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:46:20 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('submit').click();", null): Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:46:20 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:46:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:21 - [TEST_STEP][PASSED] - popup = executeJavaScript("return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';", null): Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:46:21 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:46:21 - [TEST_STEP][PASSED] - formSubmitted = popup.equals("Thanks for submitting the form"): null
+
+20-02-2026T14:46:21 - [TEST_STEP][PASSED] - shouldPass = ExpectedResult.equals("PASS"): null
+
+20-02-2026T14:46:21 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC008")): null
+
+20-02-2026T14:46:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-02-2026T14:46:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573581906.png]]
+
+20-02-2026T14:46:22 - [TEST_STEP][PASSED] - if (formSubmitted == shouldPass): [TC004_InvalidEmail] Result matches expected: FAIL
+
+20-02-2026T14:46:22 - [TEST_STEP][PASSED] - markPassed("[" + Scenario + "] Result matches expected: " + ExpectedResult): [TC004_InvalidEmail] Result matches expected: FAIL
+
+20-02-2026T14:46:22 - [MESSAGE][PASSED] - [TC004_InvalidEmail] Result matches expected: FAIL
+
+20-02-2026T14:46:22 - [TEST_STEP][PASSED] - if (formSubmitted): null
+
+20-02-2026T14:46:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-02-2026T14:46:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-02-2026T14:46:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-02-2026T14:46:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_StudentForm_DDT" time="23.423" classname="Test Cases/TC_StudentForm_DDT" status="PASSED">
+         <system-out><![CDATA[20-02-2026T14:46:25 - [TEST_CASE][PASSED] - Test Cases/TC_StudentForm_DDT: Test Cases/TC_StudentForm_DDT
+
+20-02-2026T14:46:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2026T14:46:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2026T14:46:25 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+20-02-2026T14:46:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2026T14:46:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2026T14:46:26 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:46:30 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:46:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2026T14:46:30 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2026T14:46:30 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+20-02-2026T14:46:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:46:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements"), 5): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:46:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:46:31 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:31 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/card_elements
+
+20-02-2026T14:46:31 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:31 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_forms")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:31 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_forms
+
+20-02-2026T14:46:31 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:32 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:32 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm
+
+20-02-2026T14:46:32 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:32 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+20-02-2026T14:46:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:46:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label"), 1): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:46:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:46:32 - [TEST_STEP][PASSED] - if (FirstName): Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:46:33 - [MESSAGE][PASSED] - Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:46:33 - [TEST_STEP][PASSED] - if (LastName): Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:46:33 - [MESSAGE][PASSED] - Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:46:33 - [TEST_STEP][PASSED] - if (StudentEmail): Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:46:34 - [MESSAGE][PASSED] - Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - if (!(Scenario.startsWith("TC005"))): null
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - if (MobileNumber): Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:46:34 - [MESSAGE][PASSED] - Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC009")): null
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - dobParts = DateOfBirth.split("-"): null
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - dobYear = dobParts[0]: null
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1): null
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - dobDay = String.valueOf(Integer.parseInt(dobParts[2])): null
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('dateOfBirthInput').click();", null): Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:46:34 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__year-select').value='" + dobYear + "'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:34 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__month-select').value='" + dobMonth + "'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:34 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - executeJavaScript("var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='" + dobDay + "'){d.click();break;}}", null): Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:46:34 - [MESSAGE][PASSED] - Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:46:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput"), "A"): Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:46:36 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:46:36 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('[id^=react-select-2-option]').click();", null): Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:46:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:46:36 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=hobbies-checkbox-3]').click();", null): Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:46:36 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:46:36 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture"), getProjectDir() + "/Data Files/student_photo.jpg"): File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:46:36 - [MESSAGE][PASSED] - File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:46:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:46:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:46:36 - [TEST_STEP][PASSED] - if (CurrentAddress): Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:46:36 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:46:36 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollBy(0, 300)", null): Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:46:36 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:46:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:37 - [TEST_STEP][PASSED] - executeJavaScript("var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});", null): Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:46:38 - [MESSAGE][PASSED] - Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:46:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:39 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC007")): null
+
+20-02-2026T14:46:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:46:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:46:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:40 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:46:40 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-3-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:46:40 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:46:40 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:46:40 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(State)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:46:40 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:46:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2026T14:46:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2026T14:46:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:46:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:46:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:44 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:46:44 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-4-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:46:44 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:46:44 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:46:44 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(City)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:46:44 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:46:44 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('submit').click();", null): Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:46:44 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:46:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:45 - [TEST_STEP][PASSED] - popup = executeJavaScript("return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';", null): Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:46:45 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:46:45 - [TEST_STEP][PASSED] - formSubmitted = popup.equals("Thanks for submitting the form"): null
+
+20-02-2026T14:46:45 - [TEST_STEP][PASSED] - shouldPass = ExpectedResult.equals("PASS"): null
+
+20-02-2026T14:46:45 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC008")): null
+
+20-02-2026T14:46:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-02-2026T14:46:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573605336.png]]
+
+20-02-2026T14:46:45 - [TEST_STEP][PASSED] - if (formSubmitted == shouldPass): [TC005_NoGender] Result matches expected: FAIL
+
+20-02-2026T14:46:45 - [TEST_STEP][PASSED] - markPassed("[" + Scenario + "] Result matches expected: " + ExpectedResult): [TC005_NoGender] Result matches expected: FAIL
+
+20-02-2026T14:46:45 - [MESSAGE][PASSED] - [TC005_NoGender] Result matches expected: FAIL
+
+20-02-2026T14:46:45 - [TEST_STEP][PASSED] - if (formSubmitted): null
+
+20-02-2026T14:46:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-02-2026T14:46:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-02-2026T14:46:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-02-2026T14:46:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_StudentForm_DDT" time="20.893" classname="Test Cases/TC_StudentForm_DDT" status="PASSED">
+         <system-out><![CDATA[20-02-2026T14:46:49 - [TEST_CASE][PASSED] - Test Cases/TC_StudentForm_DDT: Test Cases/TC_StudentForm_DDT
+
+20-02-2026T14:46:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2026T14:46:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2026T14:46:49 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+20-02-2026T14:46:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2026T14:46:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2026T14:46:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:46:52 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:46:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2026T14:46:52 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2026T14:46:52 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+20-02-2026T14:46:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:46:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements"), 5): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:46:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:46:53 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:53 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/card_elements
+
+20-02-2026T14:46:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:53 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_forms")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:53 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_forms
+
+20-02-2026T14:46:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:54 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:54 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm
+
+20-02-2026T14:46:54 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:46:54 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+20-02-2026T14:46:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:46:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label"), 1): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:46:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:46:54 - [TEST_STEP][PASSED] - if (FirstName): Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:46:55 - [MESSAGE][PASSED] - Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:46:55 - [TEST_STEP][PASSED] - if (LastName): Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:46:55 - [MESSAGE][PASSED] - Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:46:55 - [TEST_STEP][PASSED] - if (StudentEmail): Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:46:56 - [MESSAGE][PASSED] - Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - if (!(Scenario.startsWith("TC005"))): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=gender-radio-1]').click();", null): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:46:56 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - if (MobileNumber): null
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC009")): null
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - dobParts = DateOfBirth.split("-"): null
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - dobYear = dobParts[0]: null
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1): null
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - dobDay = String.valueOf(Integer.parseInt(dobParts[2])): null
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('dateOfBirthInput').click();", null): Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:46:56 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__year-select').value='" + dobYear + "'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:56 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__month-select').value='" + dobMonth + "'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:56 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - executeJavaScript("var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='" + dobDay + "'){d.click();break;}}", null): Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:46:56 - [MESSAGE][PASSED] - Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:46:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput"), "A"): Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:46:57 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:46:57 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('[id^=react-select-2-option]').click();", null): Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:46:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:46:57 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=hobbies-checkbox-3]').click();", null): Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:46:57 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:46:57 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture"), getProjectDir() + "/Data Files/student_photo.jpg"): File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:46:57 - [MESSAGE][PASSED] - File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:46:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:46:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:46:58 - [TEST_STEP][PASSED] - if (CurrentAddress): Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:46:58 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:46:58 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollBy(0, 300)", null): Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:46:58 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:46:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:46:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:46:59 - [TEST_STEP][PASSED] - executeJavaScript("var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});", null): Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:46:59 - [MESSAGE][PASSED] - Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:46:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:00 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC007")): null
+
+20-02-2026T14:47:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:47:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:47:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:47:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:01 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:47:01 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-3-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:47:01 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:47:01 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:47:01 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(State)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:47:01 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:47:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2026T14:47:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2026T14:47:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:47:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:47:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:47:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:05 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:47:05 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-4-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:47:05 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:47:05 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:47:05 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(City)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:47:05 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:47:05 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('submit').click();", null): Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:47:05 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:47:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:06 - [TEST_STEP][PASSED] - popup = executeJavaScript("return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';", null): Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:47:06 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:47:06 - [TEST_STEP][PASSED] - formSubmitted = popup.equals("Thanks for submitting the form"): null
+
+20-02-2026T14:47:06 - [TEST_STEP][PASSED] - shouldPass = ExpectedResult.equals("PASS"): null
+
+20-02-2026T14:47:06 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC008")): null
+
+20-02-2026T14:47:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-02-2026T14:47:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573626443.png]]
+
+20-02-2026T14:47:06 - [TEST_STEP][PASSED] - if (formSubmitted == shouldPass): [TC006_NoMobile] Result matches expected: FAIL
+
+20-02-2026T14:47:06 - [TEST_STEP][PASSED] - markPassed("[" + Scenario + "] Result matches expected: " + ExpectedResult): [TC006_NoMobile] Result matches expected: FAIL
+
+20-02-2026T14:47:06 - [MESSAGE][PASSED] - [TC006_NoMobile] Result matches expected: FAIL
+
+20-02-2026T14:47:06 - [TEST_STEP][PASSED] - if (formSubmitted): null
+
+20-02-2026T14:47:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-02-2026T14:47:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-02-2026T14:47:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-02-2026T14:47:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_StudentForm_DDT" time="12.589" classname="Test Cases/TC_StudentForm_DDT" status="PASSED">
+         <system-out><![CDATA[20-02-2026T14:47:10 - [TEST_CASE][PASSED] - Test Cases/TC_StudentForm_DDT: Test Cases/TC_StudentForm_DDT
+
+20-02-2026T14:47:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2026T14:47:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2026T14:47:10 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+20-02-2026T14:47:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2026T14:47:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2026T14:47:11 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:47:13 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:47:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2026T14:47:13 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2026T14:47:13 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+20-02-2026T14:47:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:47:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements"), 5): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:47:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:47:13 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:13 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/card_elements
+
+20-02-2026T14:47:13 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:13 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_forms")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:14 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_forms
+
+20-02-2026T14:47:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:15 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:15 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm
+
+20-02-2026T14:47:15 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:15 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+20-02-2026T14:47:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:47:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label"), 1): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:47:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:47:15 - [TEST_STEP][PASSED] - if (FirstName): Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:47:16 - [MESSAGE][PASSED] - Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:47:16 - [TEST_STEP][PASSED] - if (LastName): Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:47:16 - [MESSAGE][PASSED] - Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:47:16 - [TEST_STEP][PASSED] - if (StudentEmail): Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:47:17 - [MESSAGE][PASSED] - Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - if (!(Scenario.startsWith("TC005"))): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=gender-radio-1]').click();", null): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:47:17 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - if (MobileNumber): Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:47:17 - [MESSAGE][PASSED] - Text '8123456788' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC009")): null
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - dobParts = DateOfBirth.split("-"): null
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - dobYear = dobParts[0]: null
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1): null
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - dobDay = String.valueOf(Integer.parseInt(dobParts[2])): null
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('dateOfBirthInput').click();", null): Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:47:17 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__year-select').value='" + dobYear + "'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:47:17 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__month-select').value='" + dobMonth + "'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:47:17 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - executeJavaScript("var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='" + dobDay + "'){d.click();break;}}", null): Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:47:17 - [MESSAGE][PASSED] - Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:47:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput"), "A"): Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:47:19 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:47:19 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('[id^=react-select-2-option]').click();", null): Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:47:19 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:47:19 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=hobbies-checkbox-3]').click();", null): Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:47:19 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:47:19 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture"), getProjectDir() + "/Data Files/student_photo.jpg"): File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:47:19 - [MESSAGE][PASSED] - File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:47:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:47:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:47:19 - [TEST_STEP][PASSED] - if (CurrentAddress): Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:47:19 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:47:19 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollBy(0, 300)", null): Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:47:19 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:47:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:20 - [TEST_STEP][PASSED] - executeJavaScript("var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});", null): Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:47:20 - [MESSAGE][PASSED] - Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:47:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:21 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC007")): null
+
+20-02-2026T14:47:21 - [TEST_STEP][PASSED] - maxLength = getAttribute(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber"), "maxlength"): Attribute 'maxlength' of object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber' is: '10'
+
+20-02-2026T14:47:21 - [MESSAGE][PASSED] - Attribute 'maxlength' of object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber' is: '10'
+
+20-02-2026T14:47:21 - [TEST_STEP][PASSED] - maxOk = maxLength == "10": null
+
+20-02-2026T14:47:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-02-2026T14:47:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573641959.png]]
+
+20-02-2026T14:47:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-02-2026T14:47:22 - [MESSAGE][PASSED] - Browser is closed
+
+20-02-2026T14:47:22 - [TEST_STEP][PASSED] - if (maxOk): [TC007_MaxlengthMobile] maxlength=10 verified
+
+20-02-2026T14:47:22 - [TEST_STEP][PASSED] - markPassed("[" + Scenario + "] maxlength=10 verified"): [TC007_MaxlengthMobile] maxlength=10 verified
+
+20-02-2026T14:47:22 - [MESSAGE][PASSED] - [TC007_MaxlengthMobile] maxlength=10 verified
+
+20-02-2026T14:47:22 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_StudentForm_DDT" time="19.273" classname="Test Cases/TC_StudentForm_DDT" status="PASSED">
+         <system-out><![CDATA[20-02-2026T14:47:22 - [TEST_CASE][PASSED] - Test Cases/TC_StudentForm_DDT: Test Cases/TC_StudentForm_DDT
+
+20-02-2026T14:47:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2026T14:47:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2026T14:47:22 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+20-02-2026T14:47:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2026T14:47:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2026T14:47:23 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:47:27 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:47:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2026T14:47:27 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2026T14:47:27 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+20-02-2026T14:47:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:47:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements"), 5): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:47:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:47:27 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:27 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/card_elements
+
+20-02-2026T14:47:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:28 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_forms")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:28 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_forms
+
+20-02-2026T14:47:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:29 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:29 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm
+
+20-02-2026T14:47:29 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:29 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+20-02-2026T14:47:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:47:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label"), 1): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:47:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:47:29 - [TEST_STEP][PASSED] - if (FirstName): Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:47:30 - [MESSAGE][PASSED] - Text 'Andi' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_firstName'
+
+20-02-2026T14:47:30 - [TEST_STEP][PASSED] - if (LastName): Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:47:30 - [MESSAGE][PASSED] - Text 'Pratama' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Name_lastName'
+
+20-02-2026T14:47:30 - [TEST_STEP][PASSED] - if (StudentEmail): Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:47:30 - [MESSAGE][PASSED] - Text 'andi.pratama@mail.com' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Email_userEmail'
+
+20-02-2026T14:47:30 - [TEST_STEP][PASSED] - if (!(Scenario.startsWith("TC005"))): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:47:30 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=gender-radio-1]').click();", null): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:47:30 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:47:30 - [TEST_STEP][PASSED] - if (MobileNumber): Text 'ABCDEF1234' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:47:31 - [MESSAGE][PASSED] - Text 'ABCDEF1234' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC009")): null
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - dobParts = DateOfBirth.split("-"): null
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - dobYear = dobParts[0]: null
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - dobMonth = String.valueOf(Integer.parseInt(dobParts[1]) - 1): null
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - dobDay = String.valueOf(Integer.parseInt(dobParts[2])): null
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('dateOfBirthInput').click();", null): Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:47:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('dateOfBirthInput').click();' successfully
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__year-select').value='" + dobYear + "'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:47:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__year-select').value='2000'; document.querySelector('.react-datepicker__year-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('.react-datepicker__month-select').value='" + dobMonth + "'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));", null): Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:47:31 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('.react-datepicker__month-select').value='9'; document.querySelector('.react-datepicker__month-select').dispatchEvent(new Event('change',{bubbles:true}));' successfully
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - executeJavaScript("var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='" + dobDay + "'){d.click();break;}}", null): Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:47:31 - [MESSAGE][PASSED] - Execute JavaScript 'var days=document.querySelectorAll('.react-datepicker__day:not(.react-datepicker__day--outside-month)'); for(var d of days){if(d.textContent.trim()==='14'){d.click();break;}}' successfully
+
+20-02-2026T14:47:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput"), "A"): Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:47:32 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/input_Subjects_subjectsInput'
+
+20-02-2026T14:47:32 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('[id^=react-select-2-option]').click();", null): Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:47:32 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('[id^=react-select-2-option]').click();' successfully
+
+20-02-2026T14:47:32 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=hobbies-checkbox-3]').click();", null): Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:47:32 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=hobbies-checkbox-3]').click();' successfully
+
+20-02-2026T14:47:32 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture"), getProjectDir() + "/Data Files/student_photo.jpg"): File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:47:32 - [MESSAGE][PASSED] - File 'C:/Users/sahru/Katalon Studio/TakehomeQA-Hardi/Automation-Katalon/Data Files/student_photo.jpg' sent to object: 'Object Repository/Take Home Test/Page_DEMOQA/input_Select picture_uploadPicture'
+
+20-02-2026T14:47:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:47:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress' successfully
+
+20-02-2026T14:47:33 - [TEST_STEP][PASSED] - if (CurrentAddress): Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:47:33 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No 10 Jakarta' is set on object 'Object Repository/Take Home Test/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+20-02-2026T14:47:33 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollBy(0, 300)", null): Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:47:33 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:47:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:34 - [TEST_STEP][PASSED] - executeJavaScript("var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});", null): Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:47:34 - [MESSAGE][PASSED] - Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:47:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:35 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC007")): null
+
+20-02-2026T14:47:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:47:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' successfully
+
+20-02-2026T14:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_state_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_state_container' is clicked on
+
+20-02-2026T14:47:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:36 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:47:36 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-3-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:47:36 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-3-option]').length;' successfully
+
+20-02-2026T14:47:36 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:47:36 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(State)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:47:36 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-3-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:47:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2026T14:47:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2026T14:47:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container"), 3): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:47:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' successfully
+
+20-02-2026T14:47:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/div_city_container")): Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Take Home Test/Page_DEMOQA/div_city_container' is clicked on
+
+20-02-2026T14:47:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:40 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): null
+
+20-02-2026T14:47:40 - [TEST_STEP][PASSED] - cnt = executeJavaScript("return document.querySelectorAll('[id^=react-select-4-option]').length;", null): Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:47:40 - [MESSAGE][PASSED] - Execute JavaScript 'return document.querySelectorAll('[id^=react-select-4-option]').length;' successfully
+
+20-02-2026T14:47:40 - [TEST_STEP][PASSED] - if (cnt > 0): null
+
+20-02-2026T14:47:40 - [TEST_STEP][PASSED] - executeJavaScript("var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}", Arrays.asList(City)): Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:47:40 - [MESSAGE][PASSED] - Execute JavaScript 'var o=document.querySelectorAll('[id^=react-select-4-option]'); for(var i=0;i<o.length;i++){if(o[i].innerText.trim()===arguments[0]){o[i].click();break;}}' successfully
+
+20-02-2026T14:47:40 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('submit').click();", null): Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:47:40 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:47:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:41 - [TEST_STEP][PASSED] - popup = executeJavaScript("return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';", null): Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:47:41 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:47:41 - [TEST_STEP][PASSED] - formSubmitted = popup.equals("Thanks for submitting the form"): null
+
+20-02-2026T14:47:41 - [TEST_STEP][PASSED] - shouldPass = ExpectedResult.equals("PASS"): null
+
+20-02-2026T14:47:41 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC008")): null
+
+20-02-2026T14:47:41 - [TEST_STEP][PASSED] - actualMobile = getAttribute(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber"), "value"): Attribute 'value' of object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber' is: 'ABCDEF1234'
+
+20-02-2026T14:47:41 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber' is: 'ABCDEF1234'
+
+20-02-2026T14:47:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-02-2026T14:47:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573661426.png]]
+
+20-02-2026T14:47:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-02-2026T14:47:42 - [MESSAGE][PASSED] - Browser is closed
+
+20-02-2026T14:47:42 - [TEST_STEP][PASSED] - if (!(formSubmitted)): [TC008_InvalidMobileAlpha] Form tidak tersubmit, nilai Mobile: "ABCDEF1234" — PASSED
+
+20-02-2026T14:47:42 - [TEST_STEP][PASSED] - markPassed("[TC008_InvalidMobileAlpha] Form tidak tersubmit, nilai Mobile: "" + actualMobile + "" — PASSED"): [TC008_InvalidMobileAlpha] Form tidak tersubmit, nilai Mobile: "ABCDEF1234" — PASSED
+
+20-02-2026T14:47:42 - [MESSAGE][PASSED] - [TC008_InvalidMobileAlpha] Form tidak tersubmit, nilai Mobile: "ABCDEF1234" — PASSED
+
+20-02-2026T14:47:42 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_StudentForm_DDT" time="8.514" classname="Test Cases/TC_StudentForm_DDT" status="PASSED">
+         <system-out><![CDATA[20-02-2026T14:47:42 - [TEST_CASE][PASSED] - Test Cases/TC_StudentForm_DDT: Test Cases/TC_StudentForm_DDT
+
+20-02-2026T14:47:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-02-2026T14:47:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-02-2026T14:47:42 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.password_manager_leak_detection=false}']
+
+20-02-2026T14:47:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-02-2026T14:47:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-02-2026T14:47:43 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:47:47 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+20-02-2026T14:47:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-02-2026T14:47:47 - [MESSAGE][PASSED] - Current window maximized
+
+20-02-2026T14:47:47 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+20-02-2026T14:47:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:47:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements"), 5): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:47:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/card_elements' successfully
+
+20-02-2026T14:47:47 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/card_elements")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:48 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/card_elements
+
+20-02-2026T14:47:48 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:48 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_forms")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:48 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_forms
+
+20-02-2026T14:47:48 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm")))): Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Take Home Test/Page_DEMOQA/menu_practiceForm
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label"), 1): Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Take Home Test/Page_DEMOQA/label_Male_custom-control-label' successfully
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - if (FirstName): null
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - if (LastName): null
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - if (StudentEmail): null
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - if (!(Scenario.startsWith("TC005"))): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector('label[for=gender-radio-1]').click();", null): Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector('label[for=gender-radio-1]').click();' successfully
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - if (MobileNumber): null
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - if (Scenario.startsWith("TC009")): null
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollBy(0, 300)", null): Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollBy(0, 300)' successfully
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - executeJavaScript("var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});", null): Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Execute JavaScript 'var ads=document.querySelectorAll('.ad-container,.close-button,#adplus-anchor,[id*=google_ads],[class*=adsbygoogle]'); ads.forEach(function(a){a.remove();});' successfully
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('submit').click();", null): Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('submit').click();' successfully
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - popupTC9 = executeJavaScript("return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';", null): Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:47:49 - [MESSAGE][PASSED] - Execute JavaScript 'return document.getElementById('example-modal-sizes-title-lg') ? document.getElementById('example-modal-sizes-title-lg').innerText.trim() : '';' successfully
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - modalTC9 = popupTC9.equals("Thanks for submitting the form"): null
+
+20-02-2026T14:47:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-02-2026T14:47:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\sahru\\Katalon Studio\\TakehomeQA-Hardi\\Automation-Katalon\\Reports\\20260220_144445\\StudentFormDDTSuite\\20260220_144445\\1771573669951.png]]
+
+20-02-2026T14:47:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-02-2026T14:47:50 - [MESSAGE][PASSED] - Browser is closed
+
+20-02-2026T14:47:50 - [TEST_STEP][PASSED] - if (!(modalTC9)): [TC009_EmptyAllFields] Form tidak tersubmit saat semua field kosong — PASSED
+
+20-02-2026T14:47:50 - [TEST_STEP][PASSED] - markPassed("[TC009_EmptyAllFields] Form tidak tersubmit saat semua field kosong — PASSED"): [TC009_EmptyAllFields] Form tidak tersubmit saat semua field kosong — PASSED
+
+20-02-2026T14:47:50 - [MESSAGE][PASSED] - [TC009_EmptyAllFields] Form tidak tersubmit saat semua field kosong — PASSED
+
+20-02-2026T14:47:50 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-02-2026T14:44:50 - [TEST_SUITE][PASSED] - StudentFormDDTSuite: Test Cases/TC_StudentForm_DDT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
