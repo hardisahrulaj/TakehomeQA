@@ -28,17 +28,17 @@ WebUI.click(findTestObject('Object Repository/Take Home Test/Page_DEMOQA/label_M
 WebUI.setText(findTestObject('Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'), MobileNumber)
 
 String maxLength = WebUI.getAttribute(findTestObject('Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'), 'maxlength')
-if (maxLength == '10') {
+if (maxLength.equals('10')) {
 	log.logPassed('Success : tidak bisa mengisi lebih dari 10 Digits')
 	log.logPassed('Success : jumlah Maxlength = ' + maxLength)
 	KeywordUtil.markPassed('Success : tidak bisa mengisi lebih dari 10 Digits')
 	KeywordUtil.markPassed('Success : jumlah Maxlength = ' + maxLength)
-	WebUI.takeScreenshot()
 } else {
 	log.logFailed('Failed : maxlength salah, jumlahnya: ' + maxLength)
 	KeywordUtil.markFailed('Failed : Expected maxlength=10, got: ' + maxLength)
-	WebUI.takeScreenshot()
 }
+
+WebUI.takeScreenshot()
 
 WebUI.delay(3)
 WebUI.closeBrowser()

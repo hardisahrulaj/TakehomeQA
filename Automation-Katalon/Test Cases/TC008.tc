@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Submit Student Registration Form without Subjects</description>
+   <description>Submit Student Registration Form with alphabetic Mobile Number</description>
    <name>TC008</name>
    <tag></tag>
    <comment></comment>
@@ -11,7 +11,7 @@
       <id>9c6d5507-1a37-423c-9890-113631404187</id>
       <iterationEntity>
          <iterationType>SPECIFIC</iterationType>
-         <value>1</value>
+         <value>8</value>
       </iterationEntity>
       <testDataId>Data Files/DDT Student Scenario</testDataId>
    </testDataLinks>

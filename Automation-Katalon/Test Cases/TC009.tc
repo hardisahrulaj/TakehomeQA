@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Submit Student Registration Form without Hobbies</description>
+   <description>Submit Student Registration Form with all fields empty</description>
    <name>TC009</name>
    <tag></tag>
    <comment></comment>
@@ -11,7 +11,7 @@
       <id>0cbad67f-f00a-4b02-9543-e102480df7ce</id>
       <iterationEntity>
          <iterationType>SPECIFIC</iterationType>
-         <value>1</value>
+         <value>9</value>
       </iterationEntity>
       <testDataId>Data Files/DDT Student Scenario</testDataId>
    </testDataLinks>

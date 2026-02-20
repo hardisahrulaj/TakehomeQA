@@ -30,6 +30,7 @@ WebUI.executeJavaScript("document.querySelector('label[for=gender-radio-1]').cli
 
 // Isi Mobile dengan huruf — field hanya menerima angka, karakter huruf akan diabaikan browser
 // sehingga field tetap kosong/tidak valid → form tidak bisa submit
+WebUI.clearText(findTestObject('Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'))
 WebUI.setText(findTestObject('Object Repository/Take Home Test/Page_DEMOQA/input_(10 Digits)_userNumber'), MobileNumber)
 
 String[] dobParts = DateOfBirth.split('-')
@@ -79,12 +80,13 @@ boolean modalMuncul = popupText.equals('Thanks for submitting the form')
 WebUI.takeScreenshot()
 
 if (!modalMuncul) {
-    log.logPassed('Success : Modal tidak muncul — form tidak tersubmit dengan Mobile berisi huruf')
-    log.logPassed('Success : Nilai aktual Mobile field: "' + actualMobile + '" (huruf diabaikan oleh browser)')
+    log.logPassed('Success : Modal tidak muncul — form tidak tersubmit karena browser memblokir submit dengan Mobile berisi huruf')
+    log.logPassed('Success : Nilai aktual Mobile field: "' + actualMobile + '" (browser menerima input tapi memblokir submit)')
     KeywordUtil.markPassed('TC008_InvalidMobileAlpha : Form tidak tersubmit karena Mobile berisi huruf — PASSED')
 } else {
-    log.logFailed('Failed : Modal muncul padahal Mobile berisi huruf — form seharusnya tidak tersubmit')
-    KeywordUtil.markFailed('TC008_InvalidMobileAlpha : Form tersubmit padahal Mobile berisi huruf — FAILED')
+    log.logFailed('Failed : Form tersubmit padahal Mobile berisi huruf — seharusnya tidak terkirim')
+    log.logFailed('Nilai aktual Mobile: "' + actualMobile + '" | Modal: "' + popupText + '"')
+    KeywordUtil.markFailed('TC008_InvalidMobileAlpha : Form tersubmit dengan Mobile berisi huruf — FAILED')
 }
 
 WebUI.closeBrowser()
